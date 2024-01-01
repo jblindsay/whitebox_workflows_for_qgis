@@ -1,0 +1,7 @@
+gamma_correction
+Gamma correction
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#gamma_correction
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|gamma_value2|Gamma value (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

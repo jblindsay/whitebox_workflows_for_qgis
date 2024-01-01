@@ -1,0 +1,6 @@
+modify_nodata_value
+Modify nodata value
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#modify_nodata_value
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterNumber|new_value2|New value (float)|QgsProcessingParameterNumber.Double|-32768.0|False|None|None

@@ -1,0 +1,11 @@
+fd8_flow_accum
+Fd8 flow accum
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fd8_flow_accum
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|out_type2|Out type (str)|grid cells;catchment area;SCA|False|2|False
+QgsProcessingParameterNumber|exponent3|Exponent (float)|QgsProcessingParameterNumber.Double|1.1|False|None|None
+QgsProcessingParameterNumber|convergence_threshold4|Convergence threshold (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterBoolean|log_transform5|Log transform (bool)|False|False
+QgsProcessingParameterBoolean|clip6|Clip (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

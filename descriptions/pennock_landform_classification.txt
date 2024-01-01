@@ -1,0 +1,11 @@
+pennock_landform_classification
+Pennock landform classification
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#pennock_landform_classification
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|slope_threshold2|Slope threshold (float)|QgsProcessingParameterNumber.Double|3.0|False|None|None
+QgsProcessingParameterNumber|prof_curv_threshold3|Prof curv threshold (float)|QgsProcessingParameterNumber.Double|0.1|False|None|None
+QgsProcessingParameterNumber|plan_curv_threshold4|Plan curv threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|z_factor5|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output classification key|Text files (*.txt *.TXT)|None|False

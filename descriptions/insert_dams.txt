@@ -1,0 +1,8 @@
+insert_dams
+Insert dams
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#insert_dams
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|dam_points2|Dam points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|dam_length3|Dam length (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,7 @@
+fix_dangling_arcs
+Fix dangling arcs
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fix_dangling_arcs
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap_dist2|Snap dist (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

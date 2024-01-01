@@ -1,0 +1,9 @@
+sediment_transport_index
+Sediment transport index
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#sediment_transport_index
+QgsProcessingParameterRasterLayer|specific_catchment_area1|Specific catchment area (Raster)|None|False
+QgsProcessingParameterRasterLayer|slope2|Slope (Raster)|None|False
+QgsProcessingParameterNumber|sca_exponent3|Sca exponent (float)|QgsProcessingParameterNumber.Double|0.4|False|None|None
+QgsProcessingParameterNumber|slope_exponent4|Slope exponent (float)|QgsProcessingParameterNumber.Double|1.3|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

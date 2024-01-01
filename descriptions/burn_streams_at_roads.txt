@@ -1,0 +1,9 @@
+burn_streams_at_roads
+Burn streams at roads
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#burn_streams_at_roads
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|streams2|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|roads3|Roads (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|road_width4|Road width (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

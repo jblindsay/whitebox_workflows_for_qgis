@@ -1,0 +1,12 @@
+lidar_point_density
+Lidar point density
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_point_density
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|returns_included2|Returns included (str)|all;last;first|False|0|False
+QgsProcessingParameterNumber|cell_size3|Cell size (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|search_radius4|Search radius (float)|QgsProcessingParameterNumber.Double|2.5|False|None|None
+QgsProcessingParameterString|excluded_classes5|Excluded classes (List[int])|None|False|True
+QgsProcessingParameterNumber|min_elev6|Min elev (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterNumber|max_elev7|Max elev (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

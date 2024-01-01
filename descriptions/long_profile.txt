@@ -1,0 +1,9 @@
+long_profile
+Long profile
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#long_profile
+QgsProcessingParameterRasterLayer|d8_pointer1|D8 pointer (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams_raster2|Streams raster (Raster)|None|False
+QgsProcessingParameterRasterLayer|dem3|DEM (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file4|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterBoolean|esri_pointer4|Esri pointer (bool)|False|False

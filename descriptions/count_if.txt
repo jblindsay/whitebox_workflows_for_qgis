@@ -1,0 +1,7 @@
+count_if
+Count if
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#count_if
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|comparison_value2|Comparison value (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

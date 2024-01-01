@@ -1,0 +1,9 @@
+mosaic_with_feathering
+Mosaic with feathering
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#mosaic_with_feathering
+QgsProcessingParameterRasterLayer|image11|Image1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|image22|Image2 (Raster)|None|False
+QgsProcessingParameterEnum|resampling_method3|Resampling method (str)|nn;bilinear;cc|False|2|False
+QgsProcessingParameterNumber|distance_weight4|Distance weight (float)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

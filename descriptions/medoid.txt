@@ -1,0 +1,6 @@
+medoid
+Medoid
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#medoid
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

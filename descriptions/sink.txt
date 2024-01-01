@@ -1,0 +1,7 @@
+sink
+Sink
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#sink
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterBoolean|zero_background2|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

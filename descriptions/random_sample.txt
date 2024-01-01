@@ -1,0 +1,7 @@
+random_sample
+Random sample
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#random_sample
+QgsProcessingParameterRasterLayer|base_raster1|Base raster (Raster)|None|True
+QgsProcessingParameterNumber|num_samples2|Num samples (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,9 @@
+raise_walls
+Raise walls
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raise_walls
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|walls2|Walls (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|breach_lines3|Breach lines (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|wall_height4|Wall height (float)|QgsProcessingParameterNumber.Double|100.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

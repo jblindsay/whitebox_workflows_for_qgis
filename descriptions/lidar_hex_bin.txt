@@ -1,0 +1,8 @@
+lidar_hex_bin
+Lidar hex bin
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_hex_bin
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|width2|Width (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation3|Orientation (str)|h;v|False|0|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

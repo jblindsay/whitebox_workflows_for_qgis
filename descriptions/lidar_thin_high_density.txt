@@ -1,0 +1,10 @@
+lidar_thin_high_density
+Lidar thin high density
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_thin_high_density
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|density2|Density (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|resolution3|Resolution (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|save_filtered4|Save filtered (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput0|Output thinned point cloud (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|True
+QgsProcessingParameterFileDestination|fnOutput1|Output filtered points (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|True

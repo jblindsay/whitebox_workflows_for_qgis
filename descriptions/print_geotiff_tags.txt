@@ -1,0 +1,5 @@
+print_geotiff_tags
+Print geotiff tags
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#print_geotiff_tags
+QgsProcessingParameterFile|file_name1|Input GeoTIFF file (*.tif)|QgsProcessingParameterFile.File|None|None|False|GeoTiff Files (*.tif *.TIF *.tiff *.TIFF)

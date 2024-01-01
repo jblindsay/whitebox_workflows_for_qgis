@@ -1,0 +1,6 @@
+elevation_above_pit
+Elevation above pit
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#elevation_above_pit
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,9 @@
+stochastic_depression_analysis
+Stochastic depression analysis
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#stochastic_depression_analysis
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|rmse2|Rmse (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|range3|Range (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|iterations4|Iterations (int)|QgsProcessingParameterNumber.Integer|100|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

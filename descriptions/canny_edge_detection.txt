@@ -1,0 +1,10 @@
+canny_edge_detection
+Canny edge detection
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#canny_edge_detection
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterNumber|sigma2|Sigma (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|low_threshold3|Low threshold (float)|QgsProcessingParameterNumber.Double|0.05|False|None|None
+QgsProcessingParameterNumber|high_threshold4|High threshold (float)|QgsProcessingParameterNumber.Double|0.15|False|None|None
+QgsProcessingParameterBoolean|add_back_to_image5|Add back to image (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

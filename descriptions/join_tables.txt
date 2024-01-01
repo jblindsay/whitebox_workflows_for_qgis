@@ -1,0 +1,9 @@
+join_tables
+Join tables
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#join_tables
+QgsProcessingParameterFeatureSource|primary_vector1|Primary vector (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|primary_key_field2|Primary key field |None|primary_vector1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFeatureSource|foreign_vector3|Foreign vector (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|foreign_key_field4|Foreign key field |None|foreign_vector3|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterField|import_field5|Import field |None|foreign_vector3|QgsProcessingParameterField.Any|False|False|False

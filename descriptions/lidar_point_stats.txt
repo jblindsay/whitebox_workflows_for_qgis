@@ -1,0 +1,12 @@
+lidar_point_stats
+Lidar point stats
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_point_stats
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|cell_size2|Cell size (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|num_points3|Num points (bool)|False|False
+QgsProcessingParameterBoolean|num_pulses4|Num pulses (bool)|False|False
+QgsProcessingParameterBoolean|avg_points_per_pulse5|Avg points per pulse (bool)|False|False
+QgsProcessingParameterBoolean|z_range6|Z range (bool)|False|False
+QgsProcessingParameterBoolean|intensity_range7|Intensity range (bool)|False|False
+QgsProcessingParameterBoolean|predominant_class8|Predominant class (bool)|False|False

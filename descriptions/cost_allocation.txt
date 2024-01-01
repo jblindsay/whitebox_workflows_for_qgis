@@ -1,0 +1,7 @@
+cost_allocation
+Cost allocation
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#cost_allocation
+QgsProcessingParameterRasterLayer|source1|Source (Raster)|None|False
+QgsProcessingParameterRasterLayer|backlink2|Backlink (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

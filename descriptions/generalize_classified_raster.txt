@@ -1,0 +1,8 @@
+generalize_classified_raster
+Generalize classified raster
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#generalize_classified_raster
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|area_threshold2|Area threshold (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterEnum|method3|Method (str)|longest;largest;nearest|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

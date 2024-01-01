@@ -1,0 +1,8 @@
+extract_raster_values_at_points
+Extract raster values at points
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#extract_raster_values_at_points
+QgsProcessingParameterMultipleLayers|rasters1|Rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|points2|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput0|Output points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output text|Text files (*.txt *.TXT)|None|False

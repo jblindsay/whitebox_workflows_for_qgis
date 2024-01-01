@@ -1,0 +1,8 @@
+plan_curvature
+Plan curvature
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#plan_curvature
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterBoolean|log_transform2|Log transform (bool)|False|False
+QgsProcessingParameterNumber|z_factor3|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

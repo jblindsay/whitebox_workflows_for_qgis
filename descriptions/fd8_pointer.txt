@@ -1,0 +1,6 @@
+fd8_pointer
+Fd8 pointer
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fd8_pointer
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

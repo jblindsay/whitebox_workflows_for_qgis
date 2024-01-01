@@ -1,0 +1,14 @@
+hypsometrically_tinted_hillshade
+Hypsometrically tinted hillshade
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#hypsometrically_tinted_hillshade
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|solar_altitude2|Solar altitude (float)|QgsProcessingParameterNumber.Double|45.0|False|None|None
+QgsProcessingParameterNumber|hillshade_weight3|Hillshade weight (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|brightness4|Brightness (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|atmospheric_effects5|Atmospheric effects (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterEnum|palette6|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|0|False
+QgsProcessingParameterBoolean|reverse_palette7|Reverse palette (bool)|False|False
+QgsProcessingParameterBoolean|full_360_mode8|Full 360 mode (bool)|False|False
+QgsProcessingParameterNumber|z_factor9|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

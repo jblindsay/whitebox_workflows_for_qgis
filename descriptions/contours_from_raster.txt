@@ -1,0 +1,10 @@
+contours_from_raster
+Contours from raster
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#contours_from_raster
+QgsProcessingParameterRasterLayer|raster_surface1|Raster surface (Raster)|None|False
+QgsProcessingParameterNumber|contour_interval2|Contour interval (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|base_contour3|Base contour (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|smoothing_filter_size4|Smoothing filter size (int)|QgsProcessingParameterNumber.Integer|9|False|None|None
+QgsProcessingParameterNumber|deflection_tolerance5|Deflection tolerance (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,15 @@
+radial_basis_function_interpolation
+Radial basis function interpolation
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#radial_basis_function_interpolation
+QgsProcessingParameterFeatureSource|points1|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|points1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterBoolean|use_z3|Use z (bool)|False|False
+QgsProcessingParameterNumber|radius4|Radius (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|min_points5|Min points (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|cell_size6|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster7|Base raster (Raster)|None|True
+QgsProcessingParameterEnum|func_type8|Func type (str)|ThinPlateSpline;PolyHarmonic;Gaussian;MultiQuadric;InverseMultiQuadric|False|0|False
+QgsProcessingParameterEnum|poly_order9|Poly order (str)|none;constant;affine|False|0|False
+QgsProcessingParameterNumber|weight10|Weight (float)|QgsProcessingParameterNumber.Double|0.1|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

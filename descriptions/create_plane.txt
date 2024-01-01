@@ -1,0 +1,9 @@
+create_plane
+Create plane
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#create_plane
+QgsProcessingParameterRasterLayer|base_file1|Base file (Raster)|None|False
+QgsProcessingParameterNumber|gradient2|Gradient (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|aspect3|Aspect (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|constant4|Constant (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

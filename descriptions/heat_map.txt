@@ -1,0 +1,11 @@
+heat_map
+Heat map
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#heat_map
+QgsProcessingParameterFeatureSource|points1|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|points1|QgsProcessingParameterField.Any|False|True|False
+QgsProcessingParameterNumber|bandwidth3|Bandwidth (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|cell_size4|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster5|Base raster (Raster)|None|True
+QgsProcessingParameterEnum|kernel_function6|Kernel function (str)|uniform;triangular;epanechnikov;quartic;triweight;tricube;gaussian;cosine;logistic;sigmoid;silverman|False|3|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

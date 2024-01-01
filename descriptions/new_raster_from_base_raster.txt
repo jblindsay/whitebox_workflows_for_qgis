@@ -1,0 +1,8 @@
+new_raster_from_base_raster
+New raster from base raster
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#new_raster_from_base_raster
+QgsProcessingParameterRasterLayer|base1|Base (Raster)|None|False
+QgsProcessingParameterNumber|out_val2|Out val (float)|QgsProcessingParameterNumber.Double|nan|False|None|None
+QgsProcessingParameterEnum|data_type3|Data type (str)|integer;float;double|False|1|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

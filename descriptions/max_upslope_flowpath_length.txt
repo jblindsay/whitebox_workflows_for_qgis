@@ -1,0 +1,6 @@
+max_upslope_flowpath_length
+Max upslope flowpath length
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#max_upslope_flowpath_length
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

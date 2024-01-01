@@ -1,0 +1,7 @@
+basins
+Basins
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#basins
+QgsProcessingParameterRasterLayer|d8_pntr1|D8 pntr (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pntr2|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

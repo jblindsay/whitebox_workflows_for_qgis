@@ -1,0 +1,6 @@
+convert_nodata_to_zero
+Convert nodata to zero
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#convert_nodata_to_zero
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,6 @@
+thicken_raster_line
+Thicken raster line
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#thicken_raster_line
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

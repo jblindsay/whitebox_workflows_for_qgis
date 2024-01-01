@@ -1,0 +1,7 @@
+flip_image
+Flip image
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#flip_image
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|direction2|Direction (str)|vertical;horizontal;both|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

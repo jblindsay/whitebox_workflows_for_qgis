@@ -1,0 +1,8 @@
+clump
+Clump
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#clump
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterBoolean|diag2|Diag (bool)|False|False
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

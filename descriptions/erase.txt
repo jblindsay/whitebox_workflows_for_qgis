@@ -1,0 +1,7 @@
+erase
+Erase
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#erase
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|erase_layer2|Erase layer (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

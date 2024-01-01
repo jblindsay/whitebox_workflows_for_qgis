@@ -1,0 +1,7 @@
+roberts_cross_filter
+Roberts cross filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#roberts_cross_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|clip_amount2|Clip amount (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,7 @@
+find_parallel_flow
+Find parallel flow
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#find_parallel_flow
+QgsProcessingParameterRasterLayer|d8_pntr1|D8 pntr (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

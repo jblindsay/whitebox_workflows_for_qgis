@@ -1,0 +1,7 @@
+anova
+Anova
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#anova
+QgsProcessingParameterRasterLayer|input_raster1|Input raster (Raster)|None|False
+QgsProcessingParameterRasterLayer|features_raster2|Features raster (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

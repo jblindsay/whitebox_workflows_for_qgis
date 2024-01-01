@@ -1,0 +1,8 @@
+viewshed
+Viewshed
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#viewshed
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|station_points2|Station points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|station_height3|Station height (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

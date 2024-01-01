@@ -1,0 +1,8 @@
+river_centerlines
+River centerlines
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#river_centerlines
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|min_length2|Min length (int)|QgsProcessingParameterNumber.Integer|3|False|None|None
+QgsProcessingParameterNumber|search_radius3|Search radius (int)|QgsProcessingParameterNumber.Integer|9|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,7 @@
+radius_of_gyration
+Radius of gyration
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#radius_of_gyration
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output text|Text files (*.txt *.TXT)|None|False

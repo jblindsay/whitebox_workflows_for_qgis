@@ -1,0 +1,7 @@
+merge_line_segments
+Merge line segments
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#merge_line_segments
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap_tolerance2|Snap tolerance (float)|QgsProcessingParameterNumber.Double|2.220446049250313e-16|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

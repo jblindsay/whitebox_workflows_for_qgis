@@ -1,0 +1,7 @@
+attribute_histogram
+Attribute histogram
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#attribute_histogram
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

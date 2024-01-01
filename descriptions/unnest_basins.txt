@@ -1,0 +1,8 @@
+unnest_basins
+Unnest basins
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#unnest_basins
+QgsProcessingParameterRasterLayer|d8_pointer1|D8 pointer (Raster)|None|False
+QgsProcessingParameterFeatureSource|pour_points2|Pour points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|esri_pntr3|Esri pntr (bool)|False|False
+QgsProcessingParameterString|fnOutput|Output base file name|None|False|False

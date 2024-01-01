@@ -1,0 +1,7 @@
+ascii_to_las
+Ascii to las
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#ascii_to_las
+QgsProcessingParameterString|input_ascii_files1|Input ascii files (List[str])|None|False|False
+QgsProcessingParameterString|pattern2|Pattern (str)|None|False|False
+QgsProcessingParameterNumber|epsg_code3|Epsg code (int)|QgsProcessingParameterNumber.Integer|None|False|None|None

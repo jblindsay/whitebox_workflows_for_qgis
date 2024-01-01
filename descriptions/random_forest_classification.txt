@@ -1,0 +1,14 @@
+random_forest_classification
+Random forest classification
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#random_forest_classification
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|training_data2|Training data (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|class_field_name3|Class field name |None|training_data2|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterEnum|split_criterion4|Split criterion (str)|Gini;Entropy;ClassificationError|False|0|False
+QgsProcessingParameterNumber|n_trees5|N trees (int)|QgsProcessingParameterNumber.Integer|500|False|None|None
+QgsProcessingParameterNumber|min_samples_leaf6|Min samples leaf (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|min_samples_split7|Min samples split (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterNumber|test_proportion8|Test proportion (float)|QgsProcessingParameterNumber.Double|0.2|False|None|None
+QgsProcessingParameterBoolean|create_output9|Create output (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Optional[Raster])|None|True

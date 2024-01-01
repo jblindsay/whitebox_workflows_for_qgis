@@ -1,0 +1,8 @@
+fill_depressions_planchon_and_darboux
+Fill depressions planchon and darboux
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fill_depressions_planchon_and_darboux
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterBoolean|fix_flats2|Fix flats (bool)|True|False
+QgsProcessingParameterNumber|flat_increment3|Flat increment (float)|QgsProcessingParameterNumber.Double|nan|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

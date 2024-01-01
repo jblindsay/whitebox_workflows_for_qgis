@@ -1,0 +1,9 @@
+unsharp_masking
+Unsharp masking
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#unsharp_masking
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|sigma2|Sigma (float)|QgsProcessingParameterNumber.Double|0.75|False|None|None
+QgsProcessingParameterNumber|amount3|Amount (float)|QgsProcessingParameterNumber.Double|100.0|False|None|None
+QgsProcessingParameterNumber|threshold4|Threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

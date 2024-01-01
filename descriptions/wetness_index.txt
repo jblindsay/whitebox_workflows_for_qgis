@@ -1,0 +1,7 @@
+wetness_index
+Wetness index
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#wetness_index
+QgsProcessingParameterRasterLayer|specific_catchment_area1|Specific catchment area (Raster)|None|False
+QgsProcessingParameterRasterLayer|slope2|Slope (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

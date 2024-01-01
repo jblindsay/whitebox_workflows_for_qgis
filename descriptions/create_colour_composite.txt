@@ -1,0 +1,11 @@
+create_colour_composite
+Create colour composite
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#create_colour_composite
+QgsProcessingParameterRasterLayer|red1|Red (Raster)|None|False
+QgsProcessingParameterRasterLayer|green2|Green (Raster)|None|False
+QgsProcessingParameterRasterLayer|blue3|Blue (Raster)|None|False
+QgsProcessingParameterRasterLayer|opacity4|Opacity (Raster)|None|True
+QgsProcessingParameterBoolean|enhance5|Enhance (bool)|True|False
+QgsProcessingParameterBoolean|treat_zeros_as_nodata6|Treat zeros as nodata (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

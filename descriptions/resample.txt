@@ -1,0 +1,9 @@
+resample
+Resample
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#resample
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterNumber|cell_size2|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster3|Base raster (Raster)|None|True
+QgsProcessingParameterEnum|method4|Method (str)|nn;bilinear;cc|False|2|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

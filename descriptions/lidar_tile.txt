@@ -1,0 +1,11 @@
+lidar_tile
+Lidar tile
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_tile
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|tile_width2|Tile width (float)|QgsProcessingParameterNumber.Double|1000.0|False|None|None
+QgsProcessingParameterNumber|tile_height3|Tile height (float)|QgsProcessingParameterNumber.Double|1000.0|False|None|None
+QgsProcessingParameterNumber|origin_x4|Origin x (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|origin_y5|Origin y (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|min_points_in_tile6|Min points in tile (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterBoolean|output_laz_format7|Output laz format (bool)|True|False

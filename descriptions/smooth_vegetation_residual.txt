@@ -1,0 +1,9 @@
+smooth_vegetation_residual
+Smooth vegetation residual
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#smooth_vegetation_residual
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|max_scale2|Max scale (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|dev_threshold3|Dev threshold (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|scale_threshold4|Scale threshold (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

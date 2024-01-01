@@ -1,0 +1,9 @@
+sigmoidal_contrast_stretch
+Sigmoidal contrast stretch
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#sigmoidal_contrast_stretch
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|cutoff2|Cutoff (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|gain3|Gain (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|num_tones4|Num tones (int)|QgsProcessingParameterNumber.Integer|256|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

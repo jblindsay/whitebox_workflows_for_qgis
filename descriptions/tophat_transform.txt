@@ -1,0 +1,9 @@
+tophat_transform
+Tophat transform
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#tophat_transform
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|filter_size_x2|Filter size x (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filter_size_y3|Filter size y (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterEnum|variant4|Variant (str)|white;black|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

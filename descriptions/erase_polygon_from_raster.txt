@@ -1,0 +1,7 @@
+erase_polygon_from_raster
+Erase polygon from raster
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#erase_polygon_from_raster
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterFeatureSource|polygons2|Polygons (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

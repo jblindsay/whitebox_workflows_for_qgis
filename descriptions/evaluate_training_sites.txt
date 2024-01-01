@@ -1,0 +1,8 @@
+evaluate_training_sites
+Evaluate training sites
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#evaluate_training_sites
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|training_polygons2|Training polygons (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|class_field_name3|Class field name |None|training_polygons2|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFileDestination|output_html_file4|Output html file (str)|HTML files (*.html)|None|False

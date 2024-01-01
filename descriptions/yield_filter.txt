@@ -1,0 +1,12 @@
+yield_filter
+Yield filter
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#yield_filter
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|yield_field_name2|Yield field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterField|pass_field_name3|Pass field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterNumber|swath_width4|Swath width (float)|QgsProcessingParameterNumber.Double|6.096|False|None|None
+QgsProcessingParameterNumber|z_score_threshold5|Z score threshold (float)|QgsProcessingParameterNumber.Double|2.5|False|None|None
+QgsProcessingParameterNumber|min_yield6|Min yield (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|max_yield7|Max yield (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

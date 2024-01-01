@@ -1,0 +1,7 @@
+balance_contrast_enhancement
+Balance contrast enhancement
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#balance_contrast_enhancement
+QgsProcessingParameterRasterLayer|image1|Image (Raster)|None|False
+QgsProcessingParameterNumber|band_mean2|Band mean (float)|QgsProcessingParameterNumber.Double|100.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

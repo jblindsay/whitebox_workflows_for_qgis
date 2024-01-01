@@ -1,0 +1,7 @@
+flatten_lakes
+Flatten lakes
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#flatten_lakes
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|lakes2|Lakes (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

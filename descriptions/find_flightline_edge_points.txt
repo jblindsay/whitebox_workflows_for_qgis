@@ -1,0 +1,6 @@
+find_flightline_edge_points
+Find flightline edge points
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#find_flightline_edge_points
+QgsProcessingParameterFile|in_lidar1|In lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

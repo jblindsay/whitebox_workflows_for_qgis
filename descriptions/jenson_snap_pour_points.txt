@@ -1,0 +1,8 @@
+jenson_snap_pour_points
+Jenson snap pour points
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#jenson_snap_pour_points
+QgsProcessingParameterFeatureSource|pour_pts1|Pour pts (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
+QgsProcessingParameterNumber|snap_dist3|Snap dist (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,12 @@
+flow_accum_full_workflow
+Flow accum full workflow
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#flow_accum_full_workflow
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|out_type2|Out type (str)|grid cells;catchment area;SCA|False|2|False
+QgsProcessingParameterBoolean|log_transform3|Log transform (bool)|False|False
+QgsProcessingParameterBoolean|clip4|Clip (bool)|False|False
+QgsProcessingParameterBoolean|esri_pntr5|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output flow pointer (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput2|Output flow accumulation (Raster)|None|False

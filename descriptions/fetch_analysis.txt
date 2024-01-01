@@ -1,0 +1,8 @@
+fetch_analysis
+Fetch analysis
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fetch_analysis
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|azimuth2|Azimuth (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|height_increment3|Height increment (float)|QgsProcessingParameterNumber.Double|0.05|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

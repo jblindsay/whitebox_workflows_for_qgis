@@ -1,0 +1,6 @@
+euclidean_allocation
+Euclidean allocation
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#euclidean_allocation
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

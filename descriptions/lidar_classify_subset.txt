@@ -1,0 +1,9 @@
+lidar_classify_subset
+Lidar classify subset
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_classify_subset
+QgsProcessingParameterFile|base_lidar1|Base lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFile|subset_lidar2|Subset lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|subset_class_value3|Subset class value (int)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|nonsubset_class_value4|Nonsubset class value (int)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

@@ -1,0 +1,9 @@
+new_raster_from_base_vector
+New raster from base vector
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#new_raster_from_base_vector
+QgsProcessingParameterFeatureSource|base1|Base (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|cell_size2|Cell size (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|out_val3|Out val (float)|QgsProcessingParameterNumber.Double|nan|False|None|None
+QgsProcessingParameterEnum|data_type4|Data type (str)|integer;float;double|False|1|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

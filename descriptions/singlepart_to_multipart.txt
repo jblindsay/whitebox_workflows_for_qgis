@@ -1,0 +1,7 @@
+singlepart_to_multipart
+Singlepart to multipart
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#singlepart_to_multipart
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,7 @@
+normal_vectors
+Normal vectors
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#normal_vectors
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|search_radius2|Search radius (float)|QgsProcessingParameterNumber.Double|-1.0|False|None|None
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

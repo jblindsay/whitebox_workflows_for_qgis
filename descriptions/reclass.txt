@@ -1,0 +1,8 @@
+reclass
+Reclass
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#reclass
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterString|reclass_values2|Reclass values (List[List[float]])|None|False|False
+QgsProcessingParameterBoolean|assign_mode3|Assign mode (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,6 @@
+shape_complexity_index_raster
+Shape complexity index raster
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#shape_complexity_index_raster
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

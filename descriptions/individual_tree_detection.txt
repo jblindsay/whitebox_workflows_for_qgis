@@ -1,0 +1,11 @@
+individual_tree_detection
+Individual tree detection
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#individual_tree_detection
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|min_search_radius2|Min search radius (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|min_height3|Min height (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|max_search_radius4|Max search radius (float)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_height5|Max height (float)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|only_use_veg6|Only use veg (bool)|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Optional[Vector])|QgsProcessing.TypeVectorAnyGeometry|None|True

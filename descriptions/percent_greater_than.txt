@@ -1,0 +1,7 @@
+percent_greater_than
+Percent greater than
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#percent_greater_than
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterLayer|comparison2|Comparison (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

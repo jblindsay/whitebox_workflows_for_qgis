@@ -1,0 +1,7 @@
+set_nodata_value
+Set nodata value
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#set_nodata_value
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|back_value2|Back value (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

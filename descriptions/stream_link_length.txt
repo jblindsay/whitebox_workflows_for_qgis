@@ -1,0 +1,9 @@
+stream_link_length
+Stream link length
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#stream_link_length
+QgsProcessingParameterRasterLayer|d8_pointer1|D8 pointer (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams_id_raster2|Streams id raster (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pointer3|Esri pointer (bool)|False|False
+QgsProcessingParameterBoolean|zero_background4|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

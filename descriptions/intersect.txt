@@ -1,0 +1,8 @@
+intersect
+Intersect
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#intersect
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay2|Overlay (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|snap_tolerance3|Snap tolerance (float)|QgsProcessingParameterNumber.Double|2.220446049250313e-16|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

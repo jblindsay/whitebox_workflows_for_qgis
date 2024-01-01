@@ -1,0 +1,8 @@
+buffer_raster
+Buffer raster
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#buffer_raster
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterNumber|buffer_size2|Buffer size (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|grid_cells_units3|Grid cells units (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

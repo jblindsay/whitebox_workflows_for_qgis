@@ -1,0 +1,11 @@
+vector_points_to_raster
+Vector points to raster
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#vector_points_to_raster
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterEnum|assign_op3|Assign op (str)|first;last;min;max;sum;number|False|1|False
+QgsProcessingParameterBoolean|zero_background4|Zero background (bool)|False|False
+QgsProcessingParameterNumber|cell_size5|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster6|Base raster (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

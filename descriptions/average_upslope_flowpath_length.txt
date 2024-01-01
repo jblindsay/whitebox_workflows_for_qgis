@@ -1,0 +1,6 @@
+average_upslope_flowpath_length
+Average upslope flowpath length
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#average_upslope_flowpath_length
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

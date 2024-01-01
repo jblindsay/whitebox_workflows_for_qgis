@@ -1,0 +1,11 @@
+breach_depressions_least_cost
+Breach depressions least cost
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#breach_depressions_least_cost
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|max_cost2|Max cost (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|max_dist3|Max dist (int)|QgsProcessingParameterNumber.Integer|100|False|None|None
+QgsProcessingParameterNumber|flat_increment4|Flat increment (float)|QgsProcessingParameterNumber.Double|nan|False|None|None
+QgsProcessingParameterBoolean|fill_deps5|Fill deps (bool)|False|False
+QgsProcessingParameterBoolean|minimize_dist6|Minimize dist (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

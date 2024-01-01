@@ -1,0 +1,7 @@
+kappa_index
+Kappa index
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#kappa_index
+QgsProcessingParameterRasterLayer|class_raster1|Class raster (Raster)|None|False
+QgsProcessingParameterRasterLayer|reference_raster2|Reference raster (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

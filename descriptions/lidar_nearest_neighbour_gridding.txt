@@ -1,0 +1,13 @@
+lidar_nearest_neighbour_gridding
+Lidar nearest neighbour gridding
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_nearest_neighbour_gridding
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|interpolation_parameter2|Interpolation parameter (str)|elevation;intensity;class;return_number;number_of_returns;scan angle;rgb;user data;time|False|0|False
+QgsProcessingParameterEnum|returns_included3|Returns included (str)|all;last;first|False|0|False
+QgsProcessingParameterNumber|cell_size4|Cell size (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|search_radius5|Search radius (float)|QgsProcessingParameterNumber.Double|2.5|False|None|None
+QgsProcessingParameterString|excluded_classes6|Excluded classes (List[int])|None|False|True
+QgsProcessingParameterNumber|min_elev7|Min elev (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterNumber|max_elev8|Max elev (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

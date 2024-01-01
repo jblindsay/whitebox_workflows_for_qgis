@@ -1,0 +1,7 @@
+find_ridges
+Find ridges
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#find_ridges
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterBoolean|line_thin2|Line thin (bool)|True|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

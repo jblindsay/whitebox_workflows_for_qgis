@@ -1,0 +1,8 @@
+downslope_index
+Downslope index
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#downslope_index
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|vertical_drop2|Vertical drop (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|output_type3|Output type (str)|tangent;degrees;radians;distance|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

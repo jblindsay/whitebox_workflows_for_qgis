@@ -1,0 +1,11 @@
+panchromatic_sharpening
+Panchromatic sharpening
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#panchromatic_sharpening
+QgsProcessingParameterRasterLayer|pan1|Pan (Raster)|None|False
+QgsProcessingParameterRasterLayer|colour_composite2|Colour composite (Raster)|None|False
+QgsProcessingParameterRasterLayer|red3|Red (Raster)|None|False
+QgsProcessingParameterRasterLayer|green4|Green (Raster)|None|False
+QgsProcessingParameterRasterLayer|blue5|Blue (Raster)|None|False
+QgsProcessingParameterEnum|fusion_method6|Fusion method (str)|brovey;ihs|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

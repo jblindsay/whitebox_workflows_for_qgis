@@ -1,0 +1,9 @@
+normalized_difference_index
+Normalized difference index
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#normalized_difference_index
+QgsProcessingParameterRasterLayer|nir_image1|Nir image (Raster)|None|False
+QgsProcessingParameterRasterLayer|red_image2|Red image (Raster)|None|False
+QgsProcessingParameterNumber|clip_percent3|Clip percent (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|correction_value4|Correction value (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

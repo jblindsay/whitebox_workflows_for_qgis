@@ -1,0 +1,16 @@
+impoundment_size_index
+Impoundment size index
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#impoundment_size_index
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|max_dam_length2|Max dam length (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|output_mean3|Output mean (bool)|False|False
+QgsProcessingParameterBoolean|output_max4|Output max (bool)|False|False
+QgsProcessingParameterBoolean|output_volume5|Output volume (bool)|False|False
+QgsProcessingParameterBoolean|output_area6|Output area (bool)|False|False
+QgsProcessingParameterBoolean|output_height7|Output height (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output mean depth (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput1|Output max depth (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput2|Output volume (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput3|Output flooded area (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput4|Output dam height (Raster)|None|True

@@ -1,0 +1,7 @@
+difference
+Difference
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#difference
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFeatureSource|overlay2|Overlay (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,8 @@
+hexagonal_grid_from_raster_base
+Hexagonal grid from raster base
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#hexagonal_grid_from_raster_base
+QgsProcessingParameterRasterLayer|base1|Base (Raster)|None|False
+QgsProcessingParameterNumber|width2|Width (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|orientation3|Orientation (str)|h;v|False|0|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

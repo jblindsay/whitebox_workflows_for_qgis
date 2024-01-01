@@ -1,0 +1,6 @@
+random_field
+Random field
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#random_field
+QgsProcessingParameterRasterLayer|base_raster1|Base raster (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

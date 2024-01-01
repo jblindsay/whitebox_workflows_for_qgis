@@ -1,0 +1,9 @@
+user_defined_weights_filter
+User defined weights filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#user_defined_weights_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterString|weights2|Weights (List[List[float]])|None|False|False
+QgsProcessingParameterEnum|kernel_center3|Kernel center (str)|center;upper-left;upper-right;lower-left;lower-right|False|0|False
+QgsProcessingParameterBoolean|normalize_weights4|Normalize weights (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

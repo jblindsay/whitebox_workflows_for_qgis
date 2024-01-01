@@ -1,0 +1,9 @@
+principal_component_analysis
+Principal component analysis
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#principal_component_analysis
+QgsProcessingParameterMultipleLayers|rasters1|Rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterNumber|num_components2|Num components (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterBoolean|standardized3|Standardized (bool)|False|False
+QgsProcessingParameterString|fnOutput|Output base file name|None|False|False

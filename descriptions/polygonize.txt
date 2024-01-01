@@ -1,0 +1,6 @@
+polygonize
+Polygonize
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#polygonize
+QgsProcessingParameterMultipleLayers|input_layers1|Input layers (List[Vector])|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

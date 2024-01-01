@@ -1,0 +1,8 @@
+minimum_bounding_box
+Minimum bounding box
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#minimum_bounding_box
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterEnum|min_criteria2|Min criteria (str)|area;width;length;perimeter|False|0|False
+QgsProcessingParameterBoolean|individual_feature_hulls3|Individual feature hulls (bool)|True|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

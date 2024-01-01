@@ -1,0 +1,7 @@
+multipart_to_singlepart
+Multipart to singlepart
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multipart_to_singlepart
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|exclude_holes2|Exclude holes (bool)|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

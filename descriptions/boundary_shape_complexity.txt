@@ -1,0 +1,6 @@
+boundary_shape_complexity
+Boundary shape complexity
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#boundary_shape_complexity
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

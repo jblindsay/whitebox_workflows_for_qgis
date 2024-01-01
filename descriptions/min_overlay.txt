@@ -1,0 +1,6 @@
+min_overlay
+Min overlay
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#min_overlay
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

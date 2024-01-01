@@ -1,0 +1,9 @@
+multidirectional_hillshade
+Multidirectional hillshade
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multidirectional_hillshade
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|altitude2|Altitude (float)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterNumber|z_factor3|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|full_360_mode4|Full 360 mode (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

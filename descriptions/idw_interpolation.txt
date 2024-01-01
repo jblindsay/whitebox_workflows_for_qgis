@@ -1,0 +1,13 @@
+idw_interpolation
+Idw interpolation
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#idw_interpolation
+QgsProcessingParameterFeatureSource|points1|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|points1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterBoolean|use_z3|Use z (bool)|False|False
+QgsProcessingParameterNumber|weight4|Weight (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|radius5|Radius (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|min_points6|Min points (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|cell_size7|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster8|Base raster (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

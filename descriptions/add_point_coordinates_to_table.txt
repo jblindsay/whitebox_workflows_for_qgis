@@ -1,0 +1,6 @@
+add_point_coordinates_to_table
+Add point coordinates to table
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#add_point_coordinates_to_table
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,12 @@
+qin_flow_accumulation
+Qin flow accumulation
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#qin_flow_accumulation
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|out_type2|Out type (str)|grid cells;catchment area;SCA|False|2|False
+QgsProcessingParameterNumber|exponent3|Exponent (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|max_slope4|Max slope (float)|QgsProcessingParameterNumber.Double|45.0|False|None|None
+QgsProcessingParameterNumber|convergence_threshold5|Convergence threshold (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterBoolean|log_transform6|Log transform (bool)|False|False
+QgsProcessingParameterBoolean|clip7|Clip (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

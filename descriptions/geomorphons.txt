@@ -1,0 +1,12 @@
+geomorphons
+Geomorphons
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#geomorphons
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|search_distance2|Search distance (int)|QgsProcessingParameterNumber.Integer|50|False|None|None
+QgsProcessingParameterNumber|flatness_threshold3|Flatness threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|flatness_distance4|Flatness distance (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|skip_distance5|Skip distance (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterBoolean|output_forms6|Output forms (bool)|True|False
+QgsProcessingParameterBoolean|analyze_residuals7|Analyze residuals (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

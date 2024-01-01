@@ -1,0 +1,9 @@
+remove_short_streams
+Remove short streams
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#remove_short_streams
+QgsProcessingParameterRasterLayer|d8_pntr1|D8 pntr (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams_raster2|Streams raster (Raster)|None|False
+QgsProcessingParameterNumber|min_length3|Min length (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterBoolean|esri_pntr4|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,9 @@
+isobasins
+Isobasins
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#isobasins
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|target_size2|Target size (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterBoolean|connections3|Connections (bool)|False|False
+QgsProcessingParameterFileDestination|csv_file4|Csv file (str)|CSV files (*.csv)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

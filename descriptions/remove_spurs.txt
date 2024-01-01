@@ -1,0 +1,7 @@
+remove_spurs
+Remove spurs
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#remove_spurs
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|max_iterations2|Max iterations (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

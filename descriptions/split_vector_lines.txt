@@ -1,0 +1,7 @@
+split_vector_lines
+Split vector lines
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#split_vector_lines
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|segment_length2|Segment length (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

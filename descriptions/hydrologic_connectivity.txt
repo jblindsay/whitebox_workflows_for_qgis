@@ -1,0 +1,10 @@
+hydrologic_connectivity
+Hydrologic connectivity
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#hydrologic_connectivity
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|exponent2|Exponent (float)|QgsProcessingParameterNumber.Double|1.1|False|None|None
+QgsProcessingParameterNumber|convergence_threshold3|Convergence threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|z_factor4|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output downslope unsaturated length (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output disconnected saturated area (Raster)|None|False

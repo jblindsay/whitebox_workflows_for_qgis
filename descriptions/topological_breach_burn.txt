@@ -1,0 +1,11 @@
+topological_breach_burn
+Topological breach burn
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topological_breach_burn
+QgsProcessingParameterFeatureSource|streams1|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|dem2|DEM (Raster)|None|False
+QgsProcessingParameterNumber|snap_distance3|Snap distance (float)|QgsProcessingParameterNumber.Double|0.001|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output streams (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output DEM (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput2|Output D8 flow direction (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput3|Output D8 flow accumulation (Raster)|None|False

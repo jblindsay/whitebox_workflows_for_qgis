@@ -1,0 +1,13 @@
+knn_regression
+Knn regression
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#knn_regression
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFeatureSource|training_data2|Training data (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name3|Field name |None|training_data2|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterEnum|scaling_method4|Scaling method (str)|none;normalize;standardize|False|0|False
+QgsProcessingParameterNumber|k5|K (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterBoolean|distance_weighting6|Distance weighting (bool)|False|False
+QgsProcessingParameterNumber|test_proportion7|Test proportion (float)|QgsProcessingParameterNumber.Double|0.2|False|None|None
+QgsProcessingParameterBoolean|create_output8|Create output (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Optional[Raster])|None|True

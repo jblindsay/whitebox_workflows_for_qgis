@@ -1,0 +1,9 @@
+rasterize_streams
+Rasterize streams
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#rasterize_streams
+QgsProcessingParameterFeatureSource|streams1|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|base_raster2|Base raster (Raster)|None|True
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterBoolean|use_feature_id4|Use feature id (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

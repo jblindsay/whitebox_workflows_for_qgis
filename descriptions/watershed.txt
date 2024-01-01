@@ -1,0 +1,8 @@
+watershed
+Watershed
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#watershed
+QgsProcessingParameterRasterLayer|d8_pointer1|D8 pointer (Raster)|None|False
+QgsProcessingParameterFeatureSource|pour_points2|Pour points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|esri_pntr3|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

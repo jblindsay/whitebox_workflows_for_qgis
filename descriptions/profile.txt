@@ -1,0 +1,7 @@
+profile
+Profile
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#profile
+QgsProcessingParameterFeatureSource|lines_vector1|Lines vector (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|surface2|Surface (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

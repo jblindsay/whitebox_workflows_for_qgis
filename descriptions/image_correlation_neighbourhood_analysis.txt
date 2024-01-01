@@ -1,0 +1,10 @@
+image_correlation_neighbourhood_analysis
+Image correlation neighbourhood analysis
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_correlation_neighbourhood_analysis
+QgsProcessingParameterRasterLayer|raster11|Raster1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|raster22|Raster2 (Raster)|None|False
+QgsProcessingParameterNumber|filter_size3|Filter size (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterEnum|correlation_stat4|Correlation stat (str)|pearson;kendall;spearman|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output correlation (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output significance (Raster)|None|False

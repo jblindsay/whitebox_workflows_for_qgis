@@ -1,0 +1,12 @@
+multiscale_elevation_percentile
+Multiscale elevation percentile
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multiscale_elevation_percentile
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|num_significant_digits2|Num significant digits (int)|QgsProcessingParameterNumber.Integer|3|False|None|None
+QgsProcessingParameterNumber|min_scale3|Min scale (int)|QgsProcessingParameterNumber.Integer|4|False|None|None
+QgsProcessingParameterNumber|step_size4|Step size (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|num_steps5|Num steps (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|step_nonlinearity6|Step nonlinearity (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output magnitude raster|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output scale raster|None|False

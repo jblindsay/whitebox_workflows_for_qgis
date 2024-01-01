@@ -1,0 +1,7 @@
+histogram_matching_two_images
+Histogram matching two images
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#histogram_matching_two_images
+QgsProcessingParameterRasterLayer|image11|Image1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|image22|Image2 (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

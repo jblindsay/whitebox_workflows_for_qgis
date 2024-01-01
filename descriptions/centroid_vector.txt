@@ -1,0 +1,6 @@
+centroid_vector
+Centroid vector
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#centroid_vector
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

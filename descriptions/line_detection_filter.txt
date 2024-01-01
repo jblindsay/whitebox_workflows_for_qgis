@@ -1,0 +1,9 @@
+line_detection_filter
+Line detection filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#line_detection_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|variant2|Variant (str)|vertical;horizontal;45;135|False|0|False
+QgsProcessingParameterBoolean|abs_values3|Abs values (bool)|False|False
+QgsProcessingParameterNumber|clip_tails4|Clip tails (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

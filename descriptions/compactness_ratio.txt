@@ -1,0 +1,6 @@
+compactness_ratio
+Compactness ratio
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#compactness_ratio
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

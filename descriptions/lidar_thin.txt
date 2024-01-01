@@ -1,0 +1,10 @@
+lidar_thin
+Lidar thin
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_thin
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution2|Resolution (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterEnum|selection_method3|Selection method (str)|first;last;lowest;highest;nearest|False|0|False
+QgsProcessingParameterBoolean|save_filtered4|Save filtered (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput0|Output thinned point cloud (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|True
+QgsProcessingParameterFileDestination|fnOutput1|Output filtered points (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|True

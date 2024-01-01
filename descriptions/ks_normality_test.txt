@@ -1,0 +1,7 @@
+ks_normality_test
+Ks normality test
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#ks_normality_test
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterNumber|num_samples2|Num samples (int)|QgsProcessingParameterNumber.Integer|None|False|None|None

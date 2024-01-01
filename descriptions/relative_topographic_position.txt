@@ -1,0 +1,8 @@
+relative_topographic_position
+Relative topographic position
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#relative_topographic_position
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|filter_size_x2|Filter size x (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filter_size_y3|Filter size y (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

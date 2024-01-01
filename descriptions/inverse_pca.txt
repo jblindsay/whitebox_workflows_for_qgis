@@ -1,0 +1,7 @@
+inverse_pca
+Inverse pca
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#inverse_pca
+QgsProcessingParameterMultipleLayers|rasters1|Rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|pca_report_file2|Pca report file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterString|fnOutput|Output base file name|None|False|False

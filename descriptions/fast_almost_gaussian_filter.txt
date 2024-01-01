@@ -1,0 +1,7 @@
+fast_almost_gaussian_filter
+Fast almost gaussian filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fast_almost_gaussian_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|sigma2|Sigma (float)|QgsProcessingParameterNumber.Double|1.8|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

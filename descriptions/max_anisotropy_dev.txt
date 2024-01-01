@@ -1,0 +1,10 @@
+max_anisotropy_dev
+Max anisotropy dev
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#max_anisotropy_dev
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|min_scale2|Min scale (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|max_scale3|Max scale (int)|QgsProcessingParameterNumber.Integer|100|False|None|None
+QgsProcessingParameterNumber|step_size4|Step size (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output DEVmax magnitude raster|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output DEVmax scale raster|None|False

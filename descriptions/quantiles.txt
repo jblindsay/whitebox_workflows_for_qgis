@@ -1,0 +1,7 @@
+quantiles
+Quantiles
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#quantiles
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|num_quantiles2|Num quantiles (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

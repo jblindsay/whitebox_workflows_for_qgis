@@ -1,0 +1,10 @@
+rescale_value_range
+Rescale value range
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#rescale_value_range
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|out_min_val2|Out min val (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|out_max_val3|Out max val (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|clip_min4|Clip min (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|clip_max5|Clip max (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

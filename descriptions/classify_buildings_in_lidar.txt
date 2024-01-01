@@ -1,0 +1,7 @@
+classify_buildings_in_lidar
+Classify buildings in lidar
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#classify_buildings_in_lidar
+QgsProcessingParameterFile|in_lidar1|In lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFeatureSource|building_footprints2|Building footprints (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

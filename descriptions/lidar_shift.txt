@@ -1,0 +1,9 @@
+lidar_shift
+Lidar shift
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_shift
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|x_shift2|X shift (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|y_shift3|Y shift (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|z_shift4|Z shift (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

@@ -1,0 +1,7 @@
+mosaic
+Mosaic
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#mosaic
+QgsProcessingParameterMultipleLayers|images1|Images (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterEnum|resampling_method2|Resampling method (str)|nn;bilinear;cc|False|2|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

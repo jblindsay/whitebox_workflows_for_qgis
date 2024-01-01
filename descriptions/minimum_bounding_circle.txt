@@ -1,0 +1,7 @@
+minimum_bounding_circle
+Minimum bounding circle
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#minimum_bounding_circle
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|individual_feature_hulls2|Individual feature hulls (bool)|True|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

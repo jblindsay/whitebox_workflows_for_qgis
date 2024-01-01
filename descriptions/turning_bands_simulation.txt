@@ -1,0 +1,8 @@
+turning_bands_simulation
+Turning bands simulation
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#turning_bands_simulation
+QgsProcessingParameterRasterLayer|base_raster1|Base raster (Raster)|None|True
+QgsProcessingParameterNumber|range2|Range (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|iterations3|Iterations (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

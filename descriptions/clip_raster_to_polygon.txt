@@ -1,0 +1,8 @@
+clip_raster_to_polygon
+Clip raster to polygon
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#clip_raster_to_polygon
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterFeatureSource|polygons2|Polygons (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|maintain_dimensions3|Maintain dimensions (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

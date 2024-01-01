@@ -1,0 +1,15 @@
+time_in_daylight
+Time in daylight
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#time_in_daylight
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|az_fraction2|Az fraction (float)|QgsProcessingParameterNumber.Double|5.0|False|None|None
+QgsProcessingParameterNumber|max_dist3|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|latitude4|Latitude (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|longitude5|Longitude (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterString|utc_offset_str6|Utc offset str (str)|UTC+00:00|False|False
+QgsProcessingParameterNumber|start_day7|Start day (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|end_day8|End day (int)|QgsProcessingParameterNumber.Integer|365|False|None|None
+QgsProcessingParameterString|start_time9|Start time (str)|sunrise|False|False
+QgsProcessingParameterString|end_time10|End time (str)|sunset|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,9 @@
+construct_vector_tin
+Construct vector tin
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#construct_vector_tin
+QgsProcessingParameterFeatureSource|input_points1|Input points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input_points1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterBoolean|use_z3|Use z (bool)|False|False
+QgsProcessingParameterNumber|max_triangle_edge_length4|Max triangle edge length (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

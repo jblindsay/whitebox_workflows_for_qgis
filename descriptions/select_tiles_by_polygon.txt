@@ -1,0 +1,7 @@
+select_tiles_by_polygon
+Select tiles by polygon
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#select_tiles_by_polygon
+QgsProcessingParameterFile|input_directory1|Input directory|QgsProcessingParameterFile.Folder|None|None|False
+QgsProcessingParameterFile|output_directory2|Output directory|QgsProcessingParameterFile.Folder|None|None|False
+QgsProcessingParameterFeatureSource|polygons3|Polygons (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

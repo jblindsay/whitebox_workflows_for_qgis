@@ -1,0 +1,7 @@
+lidar_point_return_analysis
+Lidar point return analysis
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_point_return_analysis
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterBoolean|create_output2|Create output (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Optional[Lidar])|LiDAR files (*.las *.laz *.zlidar)|None|True

@@ -1,0 +1,8 @@
+remove_raster_polygon_holes
+Remove raster polygon holes
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#remove_raster_polygon_holes
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterNumber|threshold_size2|Threshold size (int)|QgsProcessingParameterNumber.Integer|999999|False|None|None
+QgsProcessingParameterBoolean|use_diagonals3|Use diagonals (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

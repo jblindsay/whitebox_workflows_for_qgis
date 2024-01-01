@@ -1,0 +1,17 @@
+topographic_hachures
+Topographic hachures
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topographic_hachures
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|contour_interval2|Contour interval (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|base_contour3|Base contour (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|deflection_tolerance4|Deflection tolerance (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|filter_size5|Filter size (int)|QgsProcessingParameterNumber.Integer|9|False|None|None
+QgsProcessingParameterNumber|separation6|Separation (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|distmin7|Distmin (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|distmax8|Distmax (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|discretization9|Discretization (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|turnmax10|Turnmax (float)|QgsProcessingParameterNumber.Double|45.0|False|None|None
+QgsProcessingParameterNumber|slopemin11|Slopemin (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
+QgsProcessingParameterNumber|depth12|Depth (int)|QgsProcessingParameterNumber.Integer|16|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

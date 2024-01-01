@@ -1,0 +1,16 @@
+lidar_rooftop_analysis
+Lidar rooftop analysis
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_rooftop_analysis
+QgsProcessingParameterMultipleLayers|lidar_inputs1|Lidar inputs (List[Lidar])|QgsProcessing.TypePointCloud|None|False
+QgsProcessingParameterFeatureSource|building_footprints2|Building footprints (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|search_radius3|Search radius (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|num_iterations4|Num iterations (int)|QgsProcessingParameterNumber.Integer|50|False|None|None
+QgsProcessingParameterNumber|num_samples5|Num samples (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|inlier_threshold6|Inlier threshold (float)|QgsProcessingParameterNumber.Double|0.15|False|None|None
+QgsProcessingParameterNumber|acceptable_model_size7|Acceptable model size (int)|QgsProcessingParameterNumber.Integer|30|False|None|None
+QgsProcessingParameterNumber|max_planar_slope8|Max planar slope (float)|QgsProcessingParameterNumber.Double|75.0|False|None|None
+QgsProcessingParameterNumber|norm_diff_threshold9|Norm diff threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|azimuth10|Azimuth (float)|QgsProcessingParameterNumber.Double|180.0|False|None|None
+QgsProcessingParameterNumber|altitude11|Altitude (float)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

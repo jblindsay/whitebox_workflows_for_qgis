@@ -1,0 +1,7 @@
+sort_lidar
+Sort lidar
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#sort_lidar
+QgsProcessingParameterString|sort_criteria1|Sort criteria (str)|None|False|False
+QgsProcessingParameterFile|input_lidar2|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|fnOutput|Output (Optional[Lidar])|LiDAR files (*.las *.laz *.zlidar)|None|True

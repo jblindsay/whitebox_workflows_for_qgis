@@ -1,0 +1,10 @@
+rectangular_grid_from_raster_base
+Rectangular grid from raster base
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#rectangular_grid_from_raster_base
+QgsProcessingParameterRasterLayer|base1|Base (Raster)|None|False
+QgsProcessingParameterNumber|width2|Width (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|height3|Height (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|x_origin4|X origin (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|y_origin5|Y origin (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,7 @@
+histogram_equalization
+Histogram equalization
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#histogram_equalization
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|num_tones2|Num tones (int)|QgsProcessingParameterNumber.Integer|256|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

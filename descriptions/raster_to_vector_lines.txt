@@ -1,0 +1,6 @@
+raster_to_vector_lines
+Raster to vector lines
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raster_to_vector_lines
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

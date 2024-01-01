@@ -1,0 +1,16 @@
+lidar_segmentation
+Lidar segmentation
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_segmentation
+QgsProcessingParameterFile|in_lidar1|In lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|search_radius2|Search radius (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|num_iterations3|Num iterations (int)|QgsProcessingParameterNumber.Integer|50|False|None|None
+QgsProcessingParameterNumber|num_samples4|Num samples (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|inlier_threshold5|Inlier threshold (float)|QgsProcessingParameterNumber.Double|0.15|False|None|None
+QgsProcessingParameterNumber|acceptable_model_size6|Acceptable model size (int)|QgsProcessingParameterNumber.Integer|30|False|None|None
+QgsProcessingParameterNumber|max_planar_slope7|Max planar slope (float)|QgsProcessingParameterNumber.Double|75.0|False|None|None
+QgsProcessingParameterNumber|norm_diff_threshold8|Norm diff threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|max_z_diff9|Max z diff (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|classes10|Classes (bool)|False|False
+QgsProcessingParameterBoolean|ground11|Ground (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

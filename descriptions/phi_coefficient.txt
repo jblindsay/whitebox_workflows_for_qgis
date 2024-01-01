@@ -1,0 +1,7 @@
+phi_coefficient
+Phi coefficient
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#phi_coefficient
+QgsProcessingParameterRasterLayer|raster11|Raster1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|raster22|Raster2 (Raster)|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

@@ -1,0 +1,7 @@
+travelling_salesman_problem
+Travelling salesman problem
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#travelling_salesman_problem
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|duration2|Duration (int)|QgsProcessingParameterNumber.Integer|60|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

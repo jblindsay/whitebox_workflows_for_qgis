@@ -1,0 +1,6 @@
+z_scores
+Z scores
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#z_scores
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,7 @@
+find_lowest_or_highest_points
+Find lowest or highest points
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#find_lowest_or_highest_points
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|output_type2|Output type (str)|lowest;highest;both|False|0|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

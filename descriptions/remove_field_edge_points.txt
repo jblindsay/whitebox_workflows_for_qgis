@@ -1,0 +1,9 @@
+remove_field_edge_points
+Remove field edge points
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#remove_field_edge_points
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|radius2|Radius (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|max_change_in_heading3|Max change in heading (float)|QgsProcessingParameterNumber.Double|25.0|False|None|None
+QgsProcessingParameterBoolean|flag_edges4|Flag edges (bool)|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

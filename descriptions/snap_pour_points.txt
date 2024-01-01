@@ -1,0 +1,8 @@
+snap_pour_points
+Snap pour points
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#snap_pour_points
+QgsProcessingParameterFeatureSource|pour_pts1|Pour pts (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|flow_accum2|Flow accum (Raster)|None|False
+QgsProcessingParameterNumber|snap_dist3|Snap dist (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

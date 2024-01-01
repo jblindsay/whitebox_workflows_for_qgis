@@ -1,0 +1,8 @@
+cost_distance
+Cost distance
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#cost_distance
+QgsProcessingParameterRasterLayer|source1|Source (Raster)|None|False
+QgsProcessingParameterRasterLayer|cost2|Cost (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output cost accumulation (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output back-link (Raster)|None|False

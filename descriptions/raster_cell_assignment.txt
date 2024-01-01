@@ -1,0 +1,7 @@
+raster_cell_assignment
+Raster cell assignment
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raster_cell_assignment
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|what_to_assign2|What to assign (str)|column;row;x;y|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,8 @@
+split_colour_composite
+Split colour composite
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#split_colour_composite
+QgsProcessingParameterRasterLayer|composite_image1|Composite image (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output red band (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output green band (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput2|Output blue band (Raster)|None|False

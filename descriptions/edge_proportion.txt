@@ -1,0 +1,7 @@
+edge_proportion
+Edge proportion
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#edge_proportion
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output text|Text files (*.txt *.TXT)|None|False

@@ -1,0 +1,9 @@
+csv_points_to_vector
+Csv points to vector
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#csv_points_to_vector
+QgsProcessingParameterFile|input_file1|Input CSV file (*.csv)|QgsProcessingParameterFile.File|None|None|False|CSV Files (*.csv *.CSV)
+QgsProcessingParameterNumber|x_field_num2|X field num (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|y_field_num3|Y field num (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|epsg4|Epsg (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

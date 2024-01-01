@@ -1,0 +1,8 @@
+flow_length_diff
+Flow length diff
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#flow_length_diff
+QgsProcessingParameterRasterLayer|d8_pointer1|D8 pointer (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pointer2|Esri pointer (bool)|False|False
+QgsProcessingParameterBoolean|log_transform3|Log transform (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

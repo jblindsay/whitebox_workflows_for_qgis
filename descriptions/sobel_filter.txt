@@ -1,0 +1,8 @@
+sobel_filter
+Sobel filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#sobel_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|variant2|Variant (str)|3x3;5x5|False|0|False
+QgsProcessingParameterNumber|clip_tails3|Clip tails (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

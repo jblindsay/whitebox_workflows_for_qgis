@@ -1,0 +1,7 @@
+filter_lidar_scan_angles
+Filter lidar scan angles
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#filter_lidar_scan_angles
+QgsProcessingParameterFile|in_lidar1|In lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|threshold2|Threshold (int)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

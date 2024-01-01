@@ -1,0 +1,11 @@
+shadow_image
+Shadow image
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#shadow_image
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|palette2|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
+QgsProcessingParameterNumber|max_dist3|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterString|date4|Date (str)|21/06/2021|False|False
+QgsProcessingParameterString|time5|Time (str)|13:00|False|False
+QgsProcessingParameterString|location6|Location (str)|43.5448/-80.2482/-4|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,9 @@
+classify_overlap_points
+Classify overlap points
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#classify_overlap_points
+QgsProcessingParameterFile|in_lidar1|In lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|resolution2|Resolution (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterEnum|overlap_criterion3|Overlap criterion (str)|max scan angle;min point source ID;time;multiple point source IDs|False|0|False
+QgsProcessingParameterBoolean|filter4|Filter (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

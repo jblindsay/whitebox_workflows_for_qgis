@@ -1,0 +1,7 @@
+spherical_std_dev_of_normals
+Spherical std dev of normals
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#spherical_std_dev_of_normals
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|filter_size2|Filter size (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

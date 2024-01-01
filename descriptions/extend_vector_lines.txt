@@ -1,0 +1,8 @@
+extend_vector_lines
+Extend vector lines
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#extend_vector_lines
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|distance2|Distance (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|extend_direction3|Extend direction (str)|both ends;line start;line end|False|0|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

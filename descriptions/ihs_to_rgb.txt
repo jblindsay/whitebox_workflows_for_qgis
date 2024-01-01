@@ -1,0 +1,10 @@
+ihs_to_rgb
+Ihs to rgb
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#ihs_to_rgb
+QgsProcessingParameterRasterLayer|intensity1|Intensity (Raster)|None|False
+QgsProcessingParameterRasterLayer|hue2|Hue (Raster)|None|False
+QgsProcessingParameterRasterLayer|saturation3|Saturation (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output red (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output green (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput2|Output blue (Raster)|None|False

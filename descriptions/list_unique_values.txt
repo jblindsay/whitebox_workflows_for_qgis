@@ -1,0 +1,7 @@
+list_unique_values
+List unique values
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#list_unique_values
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (List[Tuple[str, int]])|Text files (*.txt *.TXT)|None|False

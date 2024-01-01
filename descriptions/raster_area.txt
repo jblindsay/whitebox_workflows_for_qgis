@@ -1,0 +1,9 @@
+raster_area
+Raster area
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raster_area
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|units2|Units (str)|grid cells;map units|False|1|False
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output text|Text files (*.txt *.TXT)|None|False

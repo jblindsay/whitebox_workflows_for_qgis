@@ -1,0 +1,11 @@
+lidar_construct_vector_tin
+Lidar construct vector tin
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_construct_vector_tin
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterEnum|returns_included2|Returns included (str)|all;last;first|False|0|False
+QgsProcessingParameterString|excluded_classes3|Excluded classes (List[int])|None|False|True
+QgsProcessingParameterNumber|min_elev4|Min elev (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterNumber|max_elev5|Max elev (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|max_triangle_edge_length6|Max triangle edge length (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

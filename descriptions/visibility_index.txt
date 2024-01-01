@@ -1,0 +1,8 @@
+visibility_index
+Visibility index
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#visibility_index
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|station_height2|Station height (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|resolution_factor3|Resolution factor (int)|QgsProcessingParameterNumber.Integer|8|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

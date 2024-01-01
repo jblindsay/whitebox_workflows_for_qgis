@@ -1,0 +1,7 @@
+slope_vs_elev_plot
+Slope vs elev plot
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#slope_vs_elev_plot
+QgsProcessingParameterMultipleLayers|dem_rasters1|Dem rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterMultipleLayers|watershed_rasters2|Watershed rasters (List[Raster])|QgsProcessing.TypeRaster|None|False

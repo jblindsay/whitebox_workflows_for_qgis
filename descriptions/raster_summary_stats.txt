@@ -1,0 +1,6 @@
+raster_summary_stats
+Raster summary stats
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raster_summary_stats
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput|Output (str)|Text files (*.txt *.TXT)|None|False

@@ -1,0 +1,7 @@
+root_mean_square_error
+Root mean square error
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#root_mean_square_error
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterRasterLayer|reference2|Reference (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput|Output (str)|Text files (*.txt *.TXT)|None|False

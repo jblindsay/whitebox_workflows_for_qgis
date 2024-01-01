@@ -1,0 +1,16 @@
+topo_render
+Topo render
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topo_render
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|palette2|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
+QgsProcessingParameterBoolean|reverse_palette3|Reverse palette (bool)|False|False
+QgsProcessingParameterNumber|azimuth4|Azimuth (float)|QgsProcessingParameterNumber.Double|315.0|False|None|None
+QgsProcessingParameterNumber|altitude5|Altitude (float)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterFeatureSource|clipping_polygon6|Clipping polygon (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|True
+QgsProcessingParameterNumber|background_hgt_offset7|Background hgt offset (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterString|background_clr8|Background clr (Tuple[int, int, int, int])|(255, 255, 255, 255)|False|False
+QgsProcessingParameterNumber|attenuation_parameter9|Attenuation parameter (float)|QgsProcessingParameterNumber.Double|0.3|False|None|None
+QgsProcessingParameterNumber|ambient_light10|Ambient light (float)|QgsProcessingParameterNumber.Double|0.2|False|None|None
+QgsProcessingParameterNumber|z_factor11|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

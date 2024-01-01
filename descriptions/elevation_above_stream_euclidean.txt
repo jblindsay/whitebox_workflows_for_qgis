@@ -1,0 +1,7 @@
+elevation_above_stream_euclidean
+Elevation above stream euclidean
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#elevation_above_stream_euclidean
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

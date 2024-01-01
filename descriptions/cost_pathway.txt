@@ -1,0 +1,8 @@
+cost_pathway
+Cost pathway
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#cost_pathway
+QgsProcessingParameterRasterLayer|destination1|Destination (Raster)|None|False
+QgsProcessingParameterRasterLayer|backlink2|Backlink (Raster)|None|False
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

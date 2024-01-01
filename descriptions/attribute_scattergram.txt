@@ -1,0 +1,9 @@
+attribute_scattergram
+Attribute scattergram
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#attribute_scattergram
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name_x2|Field name x |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterField|field_name_y3|Field name y |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFileDestination|output_html_file4|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterBoolean|add_trendline4|Add trendline (bool)|False|False

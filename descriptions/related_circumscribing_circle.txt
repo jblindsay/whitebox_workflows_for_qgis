@@ -1,0 +1,6 @@
+related_circumscribing_circle
+Related circumscribing circle
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#related_circumscribing_circle
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

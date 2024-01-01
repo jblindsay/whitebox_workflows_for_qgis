@@ -1,0 +1,6 @@
+lines_to_polygons
+Lines to polygons
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lines_to_polygons
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

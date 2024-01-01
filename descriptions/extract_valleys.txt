@@ -1,0 +1,9 @@
+extract_valleys
+Extract valleys
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#extract_valleys
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|variant2|Variant (str)|LQ;JandR;PandD|False|0|False
+QgsProcessingParameterBoolean|line_thin3|Line thin (bool)|False|False
+QgsProcessingParameterNumber|filter_size4|Filter size (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

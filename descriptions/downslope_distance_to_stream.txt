@@ -1,0 +1,8 @@
+downslope_distance_to_stream
+Downslope distance to stream
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#downslope_distance_to_stream
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
+QgsProcessingParameterBoolean|use_dinf3|Use dinf (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,8 @@
+edge_preserving_mean_filter
+Edge preserving mean filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#edge_preserving_mean_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|filter_size2|Filter size (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|threshold3|Threshold (float)|QgsProcessingParameterNumber.Double|15.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

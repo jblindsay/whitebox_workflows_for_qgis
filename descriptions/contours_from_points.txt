@@ -1,0 +1,12 @@
+contours_from_points
+Contours from points
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#contours_from_points
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterBoolean|use_z_values3|Use z values (bool)|False|False
+QgsProcessingParameterNumber|max_triangle_edge_length4|Max triangle edge length (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|contour_interval5|Contour interval (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|base_contour6|Base contour (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|smoothing_filter_size7|Smoothing filter size (int)|QgsProcessingParameterNumber.Integer|9|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

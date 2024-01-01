@@ -1,0 +1,8 @@
+hillslopes
+Hillslopes
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#hillslopes
+QgsProcessingParameterRasterLayer|d8_pntr1|D8 pntr (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pntr3|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

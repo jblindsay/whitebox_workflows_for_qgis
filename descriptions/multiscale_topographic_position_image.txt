@@ -1,0 +1,10 @@
+multiscale_topographic_position_image
+Multiscale topographic position image
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multiscale_topographic_position_image
+QgsProcessingParameterRasterLayer|local1|Local (Raster)|None|False
+QgsProcessingParameterRasterLayer|meso2|Meso (Raster)|None|False
+QgsProcessingParameterRasterLayer|broad3|Broad (Raster)|None|False
+QgsProcessingParameterRasterLayer|hillshade4|Hillshade (Raster)|None|True
+QgsProcessingParameterNumber|lightness5|Lightness (float)|QgsProcessingParameterNumber.Double|1.2|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

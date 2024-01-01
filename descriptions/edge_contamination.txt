@@ -1,0 +1,8 @@
+edge_contamination
+Edge contamination
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#edge_contamination
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterEnum|flow_type2|Flow type (str)|d8;mfd;dinf|False|1|False
+QgsProcessingParameterNumber|z_factor3|Z factor (float)|QgsProcessingParameterNumber.Double|-1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,10 @@
+zonal_statistics
+Zonal statistics
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#zonal_statistics
+QgsProcessingParameterRasterLayer|data_raster1|Data raster (Raster)|None|False
+QgsProcessingParameterRasterLayer|feature_definitions_raster2|Feature definitions raster (Raster)|None|False
+QgsProcessingParameterEnum|stat_type3|Stat type (str)|mean;median;minimum;maximum;range;standard deviation;total|False|0|False
+QgsProcessingParameterBoolean|zero_is_background4|Zero is background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput1|Output text|Text files (*.txt *.TXT)|None|False

@@ -1,0 +1,6 @@
+perimeter_area_ratio
+Perimeter area ratio
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#perimeter_area_ratio
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

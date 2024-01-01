@@ -1,0 +1,6 @@
+shape_complexity_index_vector
+Shape complexity index vector
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#shape_complexity_index_vector
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,11 @@
+tin_interpolation
+Tin interpolation
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#tin_interpolation
+QgsProcessingParameterFeatureSource|points1|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|field_name2|Field name |None|points1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterBoolean|use_z3|Use z (bool)|False|False
+QgsProcessingParameterNumber|cell_size4|Cell size (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterLayer|base_raster5|Base raster (Raster)|None|True
+QgsProcessingParameterNumber|max_triangle_edge_length6|Max triangle edge length (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

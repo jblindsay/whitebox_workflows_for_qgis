@@ -1,0 +1,10 @@
+correct_vignetting
+Correct vignetting
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#correct_vignetting
+QgsProcessingParameterRasterLayer|image1|Image (Raster)|None|False
+QgsProcessingParameterFeatureSource|principal_point2|Principal point (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|focal_length3|Focal length (float)|QgsProcessingParameterNumber.Double|304.8|False|None|None
+QgsProcessingParameterNumber|image_width4|Image width (float)|QgsProcessingParameterNumber.Double|228.6|False|None|None
+QgsProcessingParameterNumber|n_param5|N param (float)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,10 @@
+weighted_overlay
+Weighted overlay
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#weighted_overlay
+QgsProcessingParameterMultipleLayers|factors1|Factors (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterString|weights2|Weights (List[float])|None|False|False
+QgsProcessingParameterMultipleLayers|cost3|Cost (List[Raster])|QgsProcessing.TypeRaster|None|True
+QgsProcessingParameterMultipleLayers|constraints4|Constraints (List[Raster])|QgsProcessing.TypeRaster|None|True
+QgsProcessingParameterNumber|scale_max5|Scale max (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,8 @@
+aggregate_raster
+Aggregate raster
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#aggregate_raster
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|aggregation_factor2|Aggregation factor (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterEnum|aggregation_type3|Aggregation type (str)|mean;sum;maximum;minimum;range|False|0|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,8 @@
+filter_raster_features_by_area
+Filter raster features by area
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#filter_raster_features_by_area
+QgsProcessingParameterRasterLayer|input1|Input (Raster)|None|False
+QgsProcessingParameterNumber|threshold2|Threshold (int)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

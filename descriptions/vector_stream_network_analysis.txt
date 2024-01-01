@@ -1,0 +1,12 @@
+vector_stream_network_analysis
+Vector stream network analysis
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#vector_stream_network_analysis
+QgsProcessingParameterFeatureSource|streams1|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|dem2|DEM (Raster)|None|False
+QgsProcessingParameterNumber|max_ridge_cutting_height3|Max ridge cutting height (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
+QgsProcessingParameterNumber|snap_distance4|Snap distance (float)|QgsProcessingParameterNumber.Double|0.001|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput0|Output streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput1|Output confluences (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput2|Output outlets (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput3|Output channel heads (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

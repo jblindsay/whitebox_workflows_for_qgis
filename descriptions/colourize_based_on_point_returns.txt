@@ -1,0 +1,11 @@
+colourize_based_on_point_returns
+Colourize based on point returns
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#colourize_based_on_point_returns
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|intensity_blending_amount2|Intensity blending amount (float)|QgsProcessingParameterNumber.Double|50.0|False|None|None
+QgsProcessingParameterString|only_ret_colour3|Only ret colour (str)|(230,214,170)|False|False
+QgsProcessingParameterString|first_ret_colour4|First ret colour (str)|(0,140,0)|False|False
+QgsProcessingParameterString|intermediate_ret_colour5|Intermediate ret colour (str)|(255,0,255)|False|False
+QgsProcessingParameterString|last_ret_colour6|Last ret colour (str)|(0,0,255)|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Optional[Lidar])|LiDAR files (*.las *.laz *.zlidar)|None|True

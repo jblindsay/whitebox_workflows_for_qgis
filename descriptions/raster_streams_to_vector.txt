@@ -1,0 +1,9 @@
+raster_streams_to_vector
+Raster streams to vector
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#raster_streams_to_vector
+QgsProcessingParameterRasterLayer|streams1|Streams (Raster)|None|False
+QgsProcessingParameterRasterLayer|d8_pointer2|D8 pointer (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pointer3|Esri pointer (bool)|False|False
+QgsProcessingParameterBoolean|all_vertices4|All vertices (bool)|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

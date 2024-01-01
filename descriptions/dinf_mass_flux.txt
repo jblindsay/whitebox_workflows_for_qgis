@@ -1,0 +1,9 @@
+dinf_mass_flux
+Dinf mass flux
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#dinf_mass_flux
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterLayer|loading2|Loading (Raster)|None|False
+QgsProcessingParameterRasterLayer|efficiency3|Efficiency (Raster)|None|False
+QgsProcessingParameterRasterLayer|absorption4|Absorption (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

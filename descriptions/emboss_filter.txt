@@ -1,0 +1,8 @@
+emboss_filter
+Emboss filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#emboss_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|direction2|Direction (str)|n;s;e;w;ne;se;nw;sw|False|0|False
+QgsProcessingParameterNumber|clip_amount3|Clip amount (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

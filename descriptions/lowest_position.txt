@@ -1,0 +1,6 @@
+lowest_position
+Lowest position
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lowest_position
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

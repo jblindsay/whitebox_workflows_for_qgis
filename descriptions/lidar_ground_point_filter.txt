@@ -1,0 +1,13 @@
+lidar_ground_point_filter
+Lidar ground point filter
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_ground_point_filter
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|search_radius2|Search radius (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|min_neighbours3|Min neighbours (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterNumber|slope_threshold4|Slope threshold (float)|QgsProcessingParameterNumber.Double|45.0|False|None|None
+QgsProcessingParameterNumber|height_threshold5|Height threshold (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|classify6|Classify (bool)|False|False
+QgsProcessingParameterBoolean|slope_norm7|Slope norm (bool)|True|False
+QgsProcessingParameterBoolean|height_above_ground8|Height above ground (bool)|False|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

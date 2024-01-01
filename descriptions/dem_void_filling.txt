@@ -1,0 +1,10 @@
+dem_void_filling
+Dem void filling
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#dem_void_filling
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterLayer|fill2|Fill (Raster)|None|False
+QgsProcessingParameterNumber|mean_plane_dist3|Mean plane dist (int)|QgsProcessingParameterNumber.Integer|20|False|None|None
+QgsProcessingParameterEnum|edge_treatment4|Edge treatment (str)|use DEM;use fill;average|False|0|False
+QgsProcessingParameterNumber|weight_value5|Weight value (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

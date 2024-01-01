@@ -1,0 +1,7 @@
+deviation_from_regional_direction
+Deviation from regional direction
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#deviation_from_regional_direction
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|elongation_threshold2|Elongation threshold (float)|QgsProcessingParameterNumber.Double|0.75|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

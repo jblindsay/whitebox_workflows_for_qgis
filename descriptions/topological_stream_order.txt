@@ -1,0 +1,9 @@
+topological_stream_order
+Topological stream order
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topological_stream_order
+QgsProcessingParameterRasterLayer|d8_pntr1|D8 pntr (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams_raster2|Streams raster (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pntr3|Esri pntr (bool)|False|False
+QgsProcessingParameterBoolean|zero_background4|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

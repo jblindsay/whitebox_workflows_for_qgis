@@ -1,0 +1,8 @@
+diff_of_gaussians_filter
+Diff of gaussians filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#diff_of_gaussians_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|sigma12|Sigma1 (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|sigma23|Sigma2 (float)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

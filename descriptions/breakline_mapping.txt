@@ -1,0 +1,8 @@
+breakline_mapping
+Breakline mapping
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#breakline_mapping
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|threshold2|Threshold (float)|QgsProcessingParameterNumber.Double|0.8|False|None|None
+QgsProcessingParameterNumber|min_length3|Min length (int)|QgsProcessingParameterNumber.Integer|3|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

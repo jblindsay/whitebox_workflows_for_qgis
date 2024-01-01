@@ -1,0 +1,8 @@
+remove_off_terrain_objects
+Remove off terrain objects
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#remove_off_terrain_objects
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|filter_size2|Filter size (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|slope_threshold3|Slope threshold (float)|QgsProcessingParameterNumber.Double|15.0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

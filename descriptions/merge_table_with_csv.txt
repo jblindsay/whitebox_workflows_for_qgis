@@ -1,0 +1,9 @@
+merge_table_with_csv
+Merge table with csv
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#merge_table_with_csv
+QgsProcessingParameterFeatureSource|primary_vector1|Primary vector (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterField|primary_key_field2|Primary key field |None|primary_vector1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterFileDestination|foreign_csv_filename3|Foreign csv filename (str)|CSV files (*.csv)|None|False
+QgsProcessingParameterField|foreign_key_field4|Foreign key field |None|primary_vector1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterField|import_field5|Import field |None|primary_vector1|QgsProcessingParameterField.Any|False|False|False

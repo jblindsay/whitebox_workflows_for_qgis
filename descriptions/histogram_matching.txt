@@ -1,0 +1,8 @@
+histogram_matching
+Histogram matching
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#histogram_matching
+QgsProcessingParameterRasterLayer|image1|Image (Raster)|None|False
+QgsProcessingParameterString|histogram2|Histogram (List[List[float]])|None|False|False
+QgsProcessingParameterBoolean|histo_is_cumulative3|Histo is cumulative (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

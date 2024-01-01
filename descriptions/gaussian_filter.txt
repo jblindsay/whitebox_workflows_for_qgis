@@ -1,0 +1,7 @@
+gaussian_filter
+Gaussian filter
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#gaussian_filter
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|sigma2|Sigma (float)|QgsProcessingParameterNumber.Double|0.75|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

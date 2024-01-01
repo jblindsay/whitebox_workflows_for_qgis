@@ -1,0 +1,7 @@
+extract_by_attribute
+Extract by attribute
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#extract_by_attribute
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterString|statement2|Statement (str)|None|False|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

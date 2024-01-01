@@ -1,0 +1,10 @@
+max_difference_from_mean
+Max difference from mean
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#max_difference_from_mean
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|min_scale2|Min scale (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|max_scale3|Max scale (int)|QgsProcessingParameterNumber.Integer|100|False|None|None
+QgsProcessingParameterNumber|step_size4|Step size (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput0|Output DIFFmax magnitude raster|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output DIFFmax scale raster|None|False

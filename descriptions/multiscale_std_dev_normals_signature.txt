@@ -1,0 +1,11 @@
+multiscale_std_dev_normals_signature
+Multiscale std dev normals signature
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multiscale_std_dev_normals_signature
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|points2|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterNumber|min_scale3|Min scale (int)|QgsProcessingParameterNumber.Integer|4|False|None|None
+QgsProcessingParameterNumber|step_size4|Step size (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|num_steps5|Num steps (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|step_nonlinearity6|Step nonlinearity (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None

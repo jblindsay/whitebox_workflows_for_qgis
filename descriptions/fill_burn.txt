@@ -1,0 +1,7 @@
+fill_burn
+Fill burn
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#fill_burn
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|streams2|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

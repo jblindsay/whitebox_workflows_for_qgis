@@ -1,0 +1,7 @@
+erase_polygon_from_lidar
+Erase polygon from lidar
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#erase_polygon_from_lidar
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFeatureSource|polygons2|Polygons (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

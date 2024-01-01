@@ -1,0 +1,7 @@
+export_table_to_csv
+Export table to csv
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#export_table_to_csv
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|output_csv_file2|Output csv file (str)|CSV files (*.csv)|None|False
+QgsProcessingParameterBoolean|headers3|Headers (bool)|True|False

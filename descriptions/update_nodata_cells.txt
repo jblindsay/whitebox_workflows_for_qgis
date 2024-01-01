@@ -1,0 +1,7 @@
+update_nodata_cells
+Update nodata cells
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#update_nodata_cells
+QgsProcessingParameterRasterLayer|input11|Input1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|input22|Input2 (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

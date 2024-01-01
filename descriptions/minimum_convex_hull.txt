@@ -1,0 +1,7 @@
+minimum_convex_hull
+Minimum convex hull
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#minimum_convex_hull
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterBoolean|individual_feature_hulls2|Individual feature hulls (bool)|True|False
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

@@ -1,0 +1,5 @@
+reinitialize_attribute_table
+Reinitialize attribute table
+Data tools
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#reinitialize_attribute_table
+QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

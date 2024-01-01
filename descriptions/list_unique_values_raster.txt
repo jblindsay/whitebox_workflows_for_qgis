@@ -1,0 +1,6 @@
+list_unique_values_raster
+List unique values raster
+Math
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#list_unique_values_raster
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput|Output (str)|Text files (*.txt *.TXT)|None|False

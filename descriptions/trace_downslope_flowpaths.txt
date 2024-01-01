@@ -1,0 +1,9 @@
+trace_downslope_flowpaths
+Trace downslope flowpaths
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#trace_downslope_flowpaths
+QgsProcessingParameterFeatureSource|seed_points1|Seed points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|d8_pointer2|D8 pointer (Raster)|None|False
+QgsProcessingParameterBoolean|esri_pntr3|Esri pntr (bool)|False|False
+QgsProcessingParameterBoolean|zero_background4|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

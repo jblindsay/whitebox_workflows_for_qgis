@@ -1,0 +1,11 @@
+rho8_flow_accum
+Rho8 flow accum
+Hydrology
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#rho8_flow_accum
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterEnum|out_type2|Out type (str)|grid cells;catchment area;SCA|False|2|False
+QgsProcessingParameterBoolean|log_transform3|Log transform (bool)|False|False
+QgsProcessingParameterBoolean|clip4|Clip (bool)|False|False
+QgsProcessingParameterBoolean|input_is_pointer5|Input is pointer (bool)|False|False
+QgsProcessingParameterBoolean|esri_pntr6|Esri pntr (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,0 +1,8 @@
+lidar_histogram
+Lidar histogram
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_histogram
+QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterEnum|parameter2|Parameter (str)|elevation;intensity;scan angle;class;time|False|0|False
+QgsProcessingParameterNumber|clip_percent3|Clip percent (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None

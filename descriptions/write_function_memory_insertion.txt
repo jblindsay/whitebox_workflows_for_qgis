@@ -1,0 +1,8 @@
+write_function_memory_insertion
+Write function memory insertion
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#write_function_memory_insertion
+QgsProcessingParameterRasterLayer|image11|Image1 (Raster)|None|False
+QgsProcessingParameterRasterLayer|image22|Image2 (Raster)|None|False
+QgsProcessingParameterRasterLayer|image33|Image3 (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

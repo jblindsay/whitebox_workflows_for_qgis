@@ -1,0 +1,11 @@
+lidar_elevation_slice
+Lidar elevation slice
+Lidar processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_elevation_slice
+QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|minz2|Minz (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterNumber|maxz3|Maxz (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterBoolean|classify4|Classify (bool)|False|False
+QgsProcessingParameterNumber|in_class_value5|In class value (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
+QgsProcessingParameterNumber|out_class_value6|Out class value (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterFileDestination|fnOutput|Output (Lidar)|LiDAR files (*.las *.laz *.zlidar)|None|False

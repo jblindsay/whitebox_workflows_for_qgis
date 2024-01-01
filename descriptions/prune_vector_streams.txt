@@ -1,0 +1,9 @@
+prune_vector_streams
+Prune vector streams
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#prune_vector_streams
+QgsProcessingParameterFeatureSource|streams1|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterRasterLayer|dem2|DEM (Raster)|None|False
+QgsProcessingParameterNumber|threshold3|Threshold (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|snap_distance4|Snap distance (float)|QgsProcessingParameterNumber.Double|0.001|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

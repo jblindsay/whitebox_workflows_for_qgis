@@ -1,0 +1,8 @@
+map_off_terrain_objects
+Map off terrain objects
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#map_off_terrain_objects
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|max_slope2|Max slope (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|min_feature_size3|Min feature size (int)|QgsProcessingParameterNumber.Integer|0|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

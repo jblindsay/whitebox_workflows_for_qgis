@@ -1,0 +1,9 @@
+reclass_equal_interval
+Reclass equal interval
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#reclass_equal_interval
+QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
+QgsProcessingParameterNumber|interval_size2|Interval size (float)|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterNumber|start_value3|Start value (float)|QgsProcessingParameterNumber.Double|-inf|False|None|None
+QgsProcessingParameterNumber|end_value4|End value (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

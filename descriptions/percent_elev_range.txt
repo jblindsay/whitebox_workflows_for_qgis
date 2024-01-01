@@ -1,0 +1,8 @@
+percent_elev_range
+Percent elev range
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#percent_elev_range
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|filter_size_x2|Filter size x (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|filter_size_y3|Filter size y (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

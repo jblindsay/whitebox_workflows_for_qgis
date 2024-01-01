@@ -1,0 +1,8 @@
+extract_streams
+Extract streams
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#extract_streams
+QgsProcessingParameterRasterLayer|flow_accumulation1|Flow accumulation (Raster)|None|False
+QgsProcessingParameterNumber|threshold2|Threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

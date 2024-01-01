@@ -1,0 +1,16 @@
+embankment_mapping
+Embankment mapping
+Geomorphometry
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#embankment_mapping
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|roads_vector2|Roads vector (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterNumber|search_dist3|Search dist (float)|QgsProcessingParameterNumber.Double|2.5|False|None|None
+QgsProcessingParameterNumber|min_road_width4|Min road width (float)|QgsProcessingParameterNumber.Double|6.0|False|None|None
+QgsProcessingParameterNumber|typical_embankment_width5|Typical embankment width (float)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterNumber|typical_embankment_max_height6|Typical embankment max height (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|embankment_max_width7|Embankment max width (float)|QgsProcessingParameterNumber.Double|60.0|False|None|None
+QgsProcessingParameterNumber|max_upwards_increment8|Max upwards increment (float)|QgsProcessingParameterNumber.Double|0.05|False|None|None
+QgsProcessingParameterNumber|spillout_slope9|Spillout slope (float)|QgsProcessingParameterNumber.Double|4.0|False|None|None
+QgsProcessingParameterBoolean|remove_embankments10|Remove embankments (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output embankment map (Raster)|None|True
+QgsProcessingParameterRasterDestination|fnOutput1|Output embankment-removed DEM|None|True

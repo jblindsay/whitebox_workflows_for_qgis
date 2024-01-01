@@ -1,0 +1,9 @@
+change_vector_analysis
+Change vector analysis
+Image processing
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#change_vector_analysis
+QgsProcessingParameterMultipleLayers|date1_rasters1|Date1 rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterMultipleLayers|date2_rasters2|Date2 rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|fnOutput0|Output change vector magnitude (Raster)|None|False
+QgsProcessingParameterRasterDestination|fnOutput1|Output change vector direction (Raster)|None|False
+QgsProcessingParameterFileDestination|fnOutput2|Text file containing change key|Text files (*.txt *.TXT)|None|False
