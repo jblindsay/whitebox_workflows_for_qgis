@@ -4,5 +4,5 @@ Math
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#trend_surface
 QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|polynomial_order2|Polynomial order (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|polynomial_order3|Polynomial order (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

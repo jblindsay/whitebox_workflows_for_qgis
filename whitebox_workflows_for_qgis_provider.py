@@ -35,6 +35,7 @@ from qgis.PyQt.QtGui import QIcon
 from qgis.core import Qgis, QgsProcessingProvider, QgsMessageLog, QgsApplication
 from processing.core.ProcessingConfig import ProcessingConfig, Setting
 from .whitebox_workflows_for_qgis_algorithm import WhiteboxWorkflowsAlgorithm
+# from .algorithms.aspect import Aspect
 import pip
 
 pluginPath = os.path.dirname(__file__)
@@ -58,6 +59,14 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
             QgsMessageLog.logMessage("Installing whitebox-workflows...", level=Qgis.Info)
             pip.main(['install', 'whitebox-workflows'])  
 
+        # # check to see if we have stream-redirect installed.
+        # try:
+        #     __import__('stream_redirect')
+        #     QgsMessageLog.logMessage("stream_redirect package located", level=Qgis.Info)
+        # except ImportError:
+        #     QgsMessageLog.logMessage("Installing stream-redirect...", level=Qgis.Info)
+        #     pip.main(['install', 'stream-redirect'])  
+
         QgsProcessingProvider.__init__(self)
 
     def unload(self):
@@ -71,6 +80,9 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
         """
         Loads all algorithms belonging to this provider.
         """
+
+        # self.addAlgorithm(Aspect())
+
         self.algs = []
         folder = self.descriptionsPath()
         # wbtdescriptions.createDescriptions()

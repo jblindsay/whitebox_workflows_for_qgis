@@ -4,4 +4,4 @@ Math
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_autocorrelation
 QgsProcessingParameterMultipleLayers|rasters1|Rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterEnum|contiguity_type2|Contiguity type (str)|rook;king;bishop|False|2|False
+QgsProcessingParameterEnum|contiguity_type3|Contiguity type (str)|rook;king;bishop|False|2|False

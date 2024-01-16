@@ -5,7 +5,7 @@ https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_reg
 QgsProcessingParameterRasterLayer|independent_variable1|Independent variable (Raster)|None|False
 QgsProcessingParameterRasterLayer|dependent_variable2|Dependent variable (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterBoolean|standardize_residuals3|Standardize residuals (bool)|False|False
-QgsProcessingParameterBoolean|output_scattergram4|Output scattergram (bool)|False|False
-QgsProcessingParameterNumber|num_samples5|Num samples (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterBoolean|standardize_residuals4|Standardize residuals (bool)|False|False
+QgsProcessingParameterBoolean|output_scattergram5|Output scattergram (bool)|False|False
+QgsProcessingParameterNumber|num_samples6|Num samples (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

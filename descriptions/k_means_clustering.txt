@@ -4,9 +4,9 @@ Image processing
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#k_means_clustering
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|num_clusters2|Num clusters (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
-QgsProcessingParameterNumber|max_iterations3|Max iterations (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
-QgsProcessingParameterNumber|percent_changed_threshold4|Percent changed threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
-QgsProcessingParameterEnum|initialization_mode5|Initialization mode (str)|diagonal;random|False|0|False
-QgsProcessingParameterNumber|min_class_size6|Min class size (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|num_clusters3|Num clusters (int)|QgsProcessingParameterNumber.Integer|5|False|None|None
+QgsProcessingParameterNumber|max_iterations4|Max iterations (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|percent_changed_threshold5|Percent changed threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterEnum|initialization_mode6|Initialization mode (str)|diagonal;random|False|0|False
+QgsProcessingParameterNumber|min_class_size7|Min class size (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

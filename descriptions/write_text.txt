@@ -1,0 +1,2 @@
+write_text
+Write text

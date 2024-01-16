@@ -4,11 +4,11 @@ WbW Pro (License required)
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#shadow_animation
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterEnum|palette2|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
-QgsProcessingParameterNumber|max_dist3|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
-QgsProcessingParameterString|date4|Date (str)|21/06/2021|False|False
-QgsProcessingParameterNumber|time_interval5|Time interval (int)|QgsProcessingParameterNumber.Integer|30|False|None|None
-QgsProcessingParameterString|location6|Location (str)|43.5448/-80.2482/-4|False|False
-QgsProcessingParameterNumber|image_height7|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None
-QgsProcessingParameterNumber|delay8|Delay (int)|QgsProcessingParameterNumber.Integer|250|False|None|None
-QgsProcessingParameterString|label9|Label (str)||False|False
+QgsProcessingParameterEnum|palette3|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
+QgsProcessingParameterNumber|max_dist4|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterString|date5|Date (str)|21/06/2021|False|False
+QgsProcessingParameterNumber|time_interval6|Time interval (int)|QgsProcessingParameterNumber.Integer|30|False|None|None
+QgsProcessingParameterString|location7|Location (str)|43.5448/-80.2482/-4|False|False
+QgsProcessingParameterNumber|image_height8|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None
+QgsProcessingParameterNumber|delay9|Delay (int)|QgsProcessingParameterNumber.Integer|250|False|None|None
+QgsProcessingParameterString|label10|Label (str)||False|False

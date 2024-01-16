@@ -5,6 +5,6 @@ https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#trend_sur
 QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterNumber|cell_size2|Cell size (float)|QgsProcessingParameterNumber.Double|None|False|None|None
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterField|field_name3|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
-QgsProcessingParameterNumber|polynomial_order4|Polynomial order (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterField|field_name4|Field name |None|input1|QgsProcessingParameterField.Any|False|False|False
+QgsProcessingParameterNumber|polynomial_order5|Polynomial order (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

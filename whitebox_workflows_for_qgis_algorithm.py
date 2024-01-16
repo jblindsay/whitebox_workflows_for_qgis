@@ -169,7 +169,7 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
                     params['wk_dir'] = os.path.dirname(os.path.abspath(params[param.name()]))
                 else: # Likely optional parameter
                     params[param.name()] = 'None'
-            if isinstance(param, QgsProcessingParameterFile):
+            elif isinstance(param, QgsProcessingParameterFile):
                 layer = self.parameterAsString(parameters, param.name(), context)
                 if layer is not None:
                     params[param.name()] = layer
@@ -240,7 +240,9 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
                         files.append(os.path.normpath(tmp))
                 
                 params[param.name()] = f"{files}"
+                # feedback.pushInfo(params[param.name()])
                 params[param.name()] = params[param.name()].replace("['", "'").replace("']", "'")
+                # feedback.pushInfo(params[param.name()])
                 params['wk_dir'] = os.path.dirname(os.path.abspath(files[0]))
             elif isinstance(param, (QgsProcessingParameterField)):
                 params[param.name()] = f"'{self.parameterAsString(parameters, param.name(), context)}'"
@@ -256,9 +258,14 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         compress_raster = ProcessingConfig.getSetting('WBW_COMPRESS_RASTERS')
         scriptString = scriptString.replace("compress_raster", str(compress_raster))
 
+        # Make sure that the working directory string ends with a path separator
+        if not params['wk_dir'].endswith(os.sep):
+            params['wk_dir'] += os.sep
+
         for p in params:
             if p != "wk_dir": # replace the long working directory in file names
-                params[p] = os.path.basename(params[p])
+                params[p] = params[p].replace(params['wk_dir'], "")
+            #     params[p] = os.path.basename(params[p])
 
             scriptString = scriptString.replace(p, params[p]).replace("'None'", "None")
             # Likely optional parameters
@@ -320,7 +327,6 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
 
         onStdErr.buffer = ''
 
-        # command = "python3"
         arguments = ['-c', scriptString]
         proc = QgsBlockingProcess(command, arguments)
         proc.setStdOutHandler(onStdOut)

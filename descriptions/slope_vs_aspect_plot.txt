@@ -4,6 +4,6 @@ WbW Pro (License required)
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#slope_vs_aspect_plot
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|aspect_bin_size2|Aspect bin size (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
-QgsProcessingParameterNumber|min_slope3|Min slope (float)|QgsProcessingParameterNumber.Double|0.1|False|None|None
-QgsProcessingParameterNumber|z_factor4|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|aspect_bin_size3|Aspect bin size (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|min_slope4|Min slope (float)|QgsProcessingParameterNumber.Double|0.1|False|None|None
+QgsProcessingParameterNumber|z_factor5|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None

@@ -4,11 +4,11 @@ WbW Pro (License required)
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topographic_position_animation
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterEnum|palette2|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
-QgsProcessingParameterNumber|min_scale3|Min scale (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
-QgsProcessingParameterNumber|num_steps4|Num steps (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
-QgsProcessingParameterNumber|step_nonlinearity5|Step nonlinearity (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
-QgsProcessingParameterNumber|image_height6|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None
-QgsProcessingParameterNumber|delay7|Delay (int)|QgsProcessingParameterNumber.Integer|250|False|None|None
-QgsProcessingParameterString|label8|Label (str)||False|False
-QgsProcessingParameterBoolean|use_dev_max9|Use dev max (bool)|False|False
+QgsProcessingParameterEnum|palette3|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
+QgsProcessingParameterNumber|min_scale4|Min scale (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|num_steps5|Num steps (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|step_nonlinearity6|Step nonlinearity (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|image_height7|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None
+QgsProcessingParameterNumber|delay8|Delay (int)|QgsProcessingParameterNumber.Integer|250|False|None|None
+QgsProcessingParameterString|label9|Label (str)||False|False
+QgsProcessingParameterBoolean|use_dev_max10|Use dev max (bool)|False|False

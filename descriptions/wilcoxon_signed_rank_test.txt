@@ -5,4 +5,4 @@ https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#wilcoxon_
 QgsProcessingParameterRasterLayer|raster11|Raster1 (Raster)|None|False
 QgsProcessingParameterRasterLayer|raster22|Raster2 (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|num_samples3|Num samples (int)|QgsProcessingParameterNumber.Integer|None|False|None|None
+QgsProcessingParameterNumber|num_samples4|Num samples (int)|QgsProcessingParameterNumber.Integer|None|False|None|None

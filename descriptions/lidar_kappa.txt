@@ -5,6 +5,6 @@ https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_kap
 QgsProcessingParameterFile|input_lidar11|Input lidar1 (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterFile|input_lidar22|Input lidar2 (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|cell_size3|Cell size (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
-QgsProcessingParameterBoolean|output_class_accuracy4|Output class accuracy (bool)|False|False
+QgsProcessingParameterNumber|cell_size4|Cell size (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|output_class_accuracy5|Output class accuracy (bool)|False|False
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

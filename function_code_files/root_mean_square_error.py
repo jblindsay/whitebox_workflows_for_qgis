@@ -6,6 +6,5 @@ wbe.working_directory = 'wk_dir'
 raster_1 = wbe.read_raster('input1')
 raster_2 = wbe.read_raster('reference2')
 data = wbe.root_mean_square_error(raster_1, raster_2)
-with open('fnOutput', 'w') as f:
-    f.write(f"{data}")
+wbe.write_text(data, 'fnOutput')
 wbe.check_in_license('license_id')

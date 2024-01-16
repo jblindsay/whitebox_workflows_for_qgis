@@ -4,8 +4,8 @@ Image processing
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#modified_k_means_clustering
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterNumber|num_start_clusters2|Num start clusters (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
-QgsProcessingParameterNumber|merge_distance3|Merge distance (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
-QgsProcessingParameterNumber|max_iterations4|Max iterations (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
-QgsProcessingParameterNumber|percent_changed_threshold5|Percent changed threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
+QgsProcessingParameterNumber|num_start_clusters3|Num start clusters (int)|QgsProcessingParameterNumber.Integer|1000|False|None|None
+QgsProcessingParameterNumber|merge_distance4|Merge distance (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|max_iterations5|Max iterations (int)|QgsProcessingParameterNumber.Integer|10|False|None|None
+QgsProcessingParameterNumber|percent_changed_threshold6|Percent changed threshold (float)|QgsProcessingParameterNumber.Double|2.0|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

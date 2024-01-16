@@ -5,10 +5,10 @@ https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_sli
 QgsProcessingParameterRasterLayer|left_raster1|Left raster (Raster)|None|False
 QgsProcessingParameterRasterLayer|right_raster2|Right raster (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
-QgsProcessingParameterEnum|left_palette3|Left palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|15|False
-QgsProcessingParameterBoolean|left_reverse_palette4|Left reverse palette (bool)|False|False
-QgsProcessingParameterString|left_label5|Left label (str)||False|False
-QgsProcessingParameterEnum|right_palette6|Right palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|15|False
-QgsProcessingParameterBoolean|right_reverse_palette7|Right reverse palette (bool)|False|False
-QgsProcessingParameterString|right_label8|Right label (str)||False|False
-QgsProcessingParameterNumber|image_height9|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None
+QgsProcessingParameterEnum|left_palette4|Left palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|15|False
+QgsProcessingParameterBoolean|left_reverse_palette5|Left reverse palette (bool)|False|False
+QgsProcessingParameterString|left_label6|Left label (str)||False|False
+QgsProcessingParameterEnum|right_palette7|Right palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|15|False
+QgsProcessingParameterBoolean|right_reverse_palette8|Right reverse palette (bool)|False|False
+QgsProcessingParameterString|right_label9|Right label (str)||False|False
+QgsProcessingParameterNumber|image_height10|Image height (int)|QgsProcessingParameterNumber.Integer|600|False|None|None

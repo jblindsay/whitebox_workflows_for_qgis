@@ -4,7 +4,7 @@ Lidar processing
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_info
 QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|True
-QgsProcessingParameterBoolean|show_point_density2|Show point density (bool)|True|False
-QgsProcessingParameterBoolean|show_vlrs3|Show vlrs (bool)|True|False
-QgsProcessingParameterBoolean|show_geokeys4|Show geokeys (bool)|True|False
+QgsProcessingParameterBoolean|show_point_density3|Show point density (bool)|True|False
+QgsProcessingParameterBoolean|show_vlrs4|Show vlrs (bool)|True|False
+QgsProcessingParameterBoolean|show_geokeys5|Show geokeys (bool)|True|False
 QgsProcessingParameterFileDestination|fnOutput|Output (str)|Text files (*.txt *.TXT)|None|False
