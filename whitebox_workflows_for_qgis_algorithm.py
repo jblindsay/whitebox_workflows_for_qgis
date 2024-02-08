@@ -117,7 +117,10 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
             self._displayName = line
 
             line = lines.readline().strip('\n').strip()
-            self._groupId = line
+            if "None" not in line:
+                self._groupId = line
+            else:
+                self._groupId = None
 
             line = lines.readline().strip('\n').strip()
             self._helpUrl = line
@@ -257,13 +260,14 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         scriptString = scriptString.replace("max_threads", max_threads)
         compress_raster = ProcessingConfig.getSetting('WBW_COMPRESS_RASTERS')
         scriptString = scriptString.replace("compress_raster", str(compress_raster))
+        scriptString = scriptString.replace("plugin_path", pluginPath)
 
         # Make sure that the working directory string ends with a path separator
-        if not params['wk_dir'].endswith(os.sep):
+        if 'wk_dir' in params and not params['wk_dir'].endswith(os.sep):
             params['wk_dir'] += os.sep
 
         for p in params:
-            if p != "wk_dir": # replace the long working directory in file names
+            if p != "wk_dir" and 'wk_dir' in params: # replace the long working directory in file names
                 params[p] = params[p].replace(params['wk_dir'], "")
             #     params[p] = os.path.basename(params[p])
 

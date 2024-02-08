@@ -6,13 +6,13 @@
 name=Whitebox Workflows for QGIS
 qgisMinimumVersion=3.0
 description=Provides access to Whitebox Workflows within QGIS
-version=0.1
+version=1.0
 author=John Lindsay, Whitebox Geospatial Inc.
 email=support@whiteboxgeo.com
 
 about=This plugin provides access to the Whitebox Workflows for Python (WbW) geospatial analysis library. WbW has functionality for processing raster, vector and LiDAR data. With nearly 500 tools for performing advanced spatial analytical operations, WbW is a GIS powerhouse. See www.whiteboxgeo.com/whitebox-workflows-for-python/ for further details.
 
-tracker=http://bugs
+tracker=https://github.com/jblindsay/whitebox_workflows_for_qgis/issues
 repository=https://github.com/jblindsay/whitebox_workflows_for_qgis
 # End of mandatory metadata
 

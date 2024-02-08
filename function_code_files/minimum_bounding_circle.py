@@ -1,3 +1,8 @@
+import sys
+path = 'plugin_path'
+if path not in sys.path:
+    sys.path.append(path)
+
 from whitebox_workflows import WbEnvironment
 wbe = WbEnvironment('license_id')
 wbe.verbose = True

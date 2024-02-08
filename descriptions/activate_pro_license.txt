@@ -1,0 +1,9 @@
+activate_pro_license
+Activate pro license
+None
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#activate_pro_license
+QgsProcessingParameterString|key1|Activation key|None|False|False
+QgsProcessingParameterString|firstName2|First name|None|False|False
+QgsProcessingParameterString|lastName3|Last name|None|False|False
+QgsProcessingParameterString|email4|Email address|None|False|False
+QgsProcessingParameterBoolean|agreeToTerms5|Do you agree to the license terms?|False|False

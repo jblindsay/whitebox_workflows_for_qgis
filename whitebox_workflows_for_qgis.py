@@ -23,7 +23,7 @@
 """
 
 __author__ = 'John Lindsay, Whitebox Geospatial Inc.'
-__date__ = '2024-01-01'
+__date__ = '2024-02-08'
 __copyright__ = '(C) 2024 by Whitebox Geospatial Inc.'
 
 # This will get replaced with a git SHA1 when you do a git archive

@@ -30,7 +30,7 @@ __copyright__ = '(C) 2023 by Whitebox Geospatial Inc.'
 
 __revision__ = '$Format:%H$'
 
-import os
+import glob, os, platform, zipfile
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import Qgis, QgsProcessingProvider, QgsMessageLog, QgsApplication
 from processing.core.ProcessingConfig import ProcessingConfig, Setting
@@ -51,21 +51,45 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
         self.WBW_COMPRESS_RASTERS = 'WBW_COMPRESS_RASTERS'
         self.WBW_MAX_THREADS = 'WBW_MAX_THREADS'
 
-        # check to see if we have WbW installed.
-        try:
-            __import__('whitebox_workflows')
-            QgsMessageLog.logMessage("whitebox_workflows package located", level=Qgis.Info)
-        except ImportError:
-            QgsMessageLog.logMessage("Installing whitebox-workflows...", level=Qgis.Info)
-            pip.main(['install', 'whitebox-workflows'])  
-
-        # # check to see if we have stream-redirect installed.
-        # try:
-        #     __import__('stream_redirect')
-        #     QgsMessageLog.logMessage("stream_redirect package located", level=Qgis.Info)
-        # except ImportError:
-        #     QgsMessageLog.logMessage("Installing stream-redirect...", level=Qgis.Info)
-        #     pip.main(['install', 'stream-redirect'])  
+        # The following code will identify the appropriate wbw whl file
+        # for the system and unzips it for local use.
+        this_dir = os.path.dirname(os.path.realpath(__file__))
+        wb_dir = os.path.join(this_dir, 'whitebox_workflows')
+        if not os.path.isdir(wb_dir):
+            # First, find all the wheel files in this_dir
+            path = os.path.join(this_dir, '*.whl')
+            whl_files = glob.glob(path)
+            if len(whl_files) == 0:
+                print("Error: No whl files have been located in the plugin directory.")
+                QgsMessageLog.logMessage("Error: No whl files have been located in the plugin directory.", level=Qgis.Critical)
+            
+            # Based on the OS and arch, unzip the appropriate wheel
+            platform_system = platform.system()
+            if 'Linux' in platform_system:
+                for path in whl_files:
+                    if 'manylinux' in path:
+                        with zipfile.ZipFile(path, 'r') as zip_ref:
+                            zip_ref.extractall(this_dir)
+            
+            elif 'Windows' in platform_system:
+                for path in whl_files:
+                    if 'win_amd64' in path:
+                        with zipfile.ZipFile(path, 'r') as zip_ref:
+                            zip_ref.extractall(this_dir)
+            
+            elif 'Darwin' in platform_system:
+                # Intel or M-series?
+                proc = platform.processor()
+                if 'arm' in proc:
+                    for path in whl_files:
+                        if 'macos' in path and 'arm64' in path:
+                            with zipfile.ZipFile(path, 'r') as zip_ref:
+                                zip_ref.extractall(this_dir)
+                else:
+                    for path in whl_files:
+                        if 'macos' in path and 'x86' in path:
+                            with zipfile.ZipFile(path, 'r') as zip_ref:
+                                zip_ref.extractall(this_dir)
 
         QgsProcessingProvider.__init__(self)
 
