@@ -30,7 +30,7 @@ __copyright__ = '(C) 2023 by Whitebox Geospatial Inc.'
 
 __revision__ = '$Format:%H$'
 
-import glob, os, platform, zipfile
+import glob, os, platform, zipfile, urllib.request
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import Qgis, QgsProcessingProvider, QgsMessageLog, QgsApplication
 from processing.core.ProcessingConfig import ProcessingConfig, Setting
@@ -51,45 +51,60 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
         self.WBW_COMPRESS_RASTERS = 'WBW_COMPRESS_RASTERS'
         self.WBW_MAX_THREADS = 'WBW_MAX_THREADS'
 
+        # import urllib.request
+        # url = "https://www.whiteboxgeo.com/wbw_wheels/whitebox_workflows-1.2.0-cp38-abi3-macosx_11_0_arm64.whl"
+        # (s, msg) = urllib.request.urlretrieve(url, "whitebox_workflows-1.2.0-cp38-abi3-macosx_11_0_arm64.whl")
+        # print(s)
+        # print(msg)
+
+
+
         # The following code will identify the appropriate wbw whl file
         # for the system and unzips it for local use.
         this_dir = os.path.dirname(os.path.realpath(__file__))
         wb_dir = os.path.join(this_dir, 'whitebox_workflows')
         if not os.path.isdir(wb_dir):
-            # First, find all the wheel files in this_dir
-            path = os.path.join(this_dir, '*.whl')
-            whl_files = glob.glob(path)
-            if len(whl_files) == 0:
-                print("Error: No whl files have been located in the plugin directory.")
-                QgsMessageLog.logMessage("Error: No whl files have been located in the plugin directory.", level=Qgis.Critical)
+            # # First, find all the wheel files in this_dir
+            # path = os.path.join(this_dir, '*.whl')
+            # whl_files = glob.glob(path)
+            # if len(whl_files) == 0:
+            #     print("Error: No whl files have been located in the plugin directory.")
+            #     QgsMessageLog.logMessage("Error: No whl files have been located in the plugin directory.", level=Qgis.Critical)
             
+            QgsMessageLog.logMessage("Downloading Whitebox Workflows library to the plugin directory.", level=Qgis.Info)
+
             # Based on the OS and arch, unzip the appropriate wheel
             platform_system = platform.system()
             if 'Linux' in platform_system:
-                for path in whl_files:
-                    if 'manylinux' in path:
-                        with zipfile.ZipFile(path, 'r') as zip_ref:
-                            zip_ref.extractall(this_dir)
+                url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_linux.whl"
+                path = os.path.join(this_dir, 'wbw_linux.whl')
+                (s, msg) = urllib.request.urlretrieve(url, path)
+                with zipfile.ZipFile(path, 'r') as zip_ref:
+                    zip_ref.extractall(this_dir)
             
             elif 'Windows' in platform_system:
-                for path in whl_files:
-                    if 'win_amd64' in path:
-                        with zipfile.ZipFile(path, 'r') as zip_ref:
-                            zip_ref.extractall(this_dir)
+                url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_win.whl"
+                path = os.path.join(this_dir, 'wbw_win.whl')
+                (s, msg) = urllib.request.urlretrieve(url, path)
+                with zipfile.ZipFile(path, 'r') as zip_ref:
+                    zip_ref.extractall(this_dir)
             
             elif 'Darwin' in platform_system:
                 # Intel or M-series?
                 proc = platform.processor()
                 if 'arm' in proc:
-                    for path in whl_files:
-                        if 'macos' in path and 'arm64' in path:
-                            with zipfile.ZipFile(path, 'r') as zip_ref:
-                                zip_ref.extractall(this_dir)
+                    url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_macosx_arm.whl"
+                    path = os.path.join(this_dir, 'wbw_macosx_arm.whl')
+                    (s, msg) = urllib.request.urlretrieve(url, path)
+                    with zipfile.ZipFile(path, 'r') as zip_ref:
+                        zip_ref.extractall(this_dir)
+                        
                 else:
-                    for path in whl_files:
-                        if 'macos' in path and 'x86' in path:
-                            with zipfile.ZipFile(path, 'r') as zip_ref:
-                                zip_ref.extractall(this_dir)
+                    url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_macosx_intel.whl"
+                    path = os.path.join(this_dir, 'wbw_macosx_intel.whl')
+                    (s, msg) = urllib.request.urlretrieve(url, path)
+                    with zipfile.ZipFile(path, 'r') as zip_ref:
+                        zip_ref.extractall(this_dir)
 
         QgsProcessingProvider.__init__(self)
 

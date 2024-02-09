@@ -1,3 +1,8 @@
+import sys
+path = 'plugin_path'
+if path not in sys.path:
+    sys.path.append(path)
+
 import whitebox_workflows
 whitebox_workflows.activate_license(
 key=key1,
