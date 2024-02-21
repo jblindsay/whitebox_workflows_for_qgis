@@ -1,5 +1,5 @@
-import sys
-path = 'plugin_path'
+import os, sys
+path = os.path.normpath(r"plugin_path")
 if path not in sys.path:
     sys.path.append(path)
 

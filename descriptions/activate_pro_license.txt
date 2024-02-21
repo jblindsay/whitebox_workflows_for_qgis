@@ -1,6 +1,6 @@
 activate_pro_license
 Activate pro license
-None
+WbW Pro (License required)
 https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#activate_pro_license
 QgsProcessingParameterString|key1|Activation key|None|False|False
 QgsProcessingParameterString|firstName2|First name|None|False|False

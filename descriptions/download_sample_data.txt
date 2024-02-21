@@ -1,0 +1,5 @@
+download_sample_data
+Download sample data
+None
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#download_sample_data
+QgsProcessingParameterEnum|dataset_nm|Dataset Name (str)|Guelph_landsat;Grand_Junction;GTA_lidar;jay_brook;Jay_State_Forest;Kitchener_lidar;London_air_photo;mill_brook;peterborough_drumlins;Southern_Ontario_roads;StElisAk|False|7|False
