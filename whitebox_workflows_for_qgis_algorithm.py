@@ -262,14 +262,14 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         scriptString = scriptString.replace("compress_raster", str(compress_raster))
         scriptString = scriptString.replace("plugin_path", pluginPath)
 
-        # Make sure that the working directory string ends with a path separator
-        if 'wk_dir' in params and not params['wk_dir'].endswith(os.sep):
-            params['wk_dir'] += os.sep
+        # # Make sure that the working directory string ends with a path separator
+        # if 'wk_dir' in params and not params['wk_dir'].endswith(os.sep):
+        #     params['wk_dir'] += os.sep
 
         for p in params:
             if p != "wk_dir" and 'wk_dir' in params: # replace the long working directory in file names
-                params[p] = params[p].replace(params['wk_dir'], "")
-            #     params[p] = os.path.basename(params[p])
+                # params[p] = params[p].replace(params['wk_dir'], "")
+                params[p] = os.path.basename(params[p])
 
             scriptString = scriptString.replace(p, params[p]).replace("'None'", "None")
             # Likely optional parameters
