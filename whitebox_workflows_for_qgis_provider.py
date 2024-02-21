@@ -30,16 +30,15 @@ __copyright__ = '(C) 2023 by Whitebox Geospatial Inc.'
 
 __revision__ = '$Format:%H$'
 
-import glob, os, platform, zipfile, urllib.request
+import os, platform, zipfile, urllib.request
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import Qgis, QgsProcessingProvider, QgsMessageLog, QgsApplication
+from qgis.gui import QgsMessageBar
+from qgis.utils import iface
 from processing.core.ProcessingConfig import ProcessingConfig, Setting
 from .whitebox_workflows_for_qgis_algorithm import WhiteboxWorkflowsAlgorithm
-# from .algorithms.aspect import Aspect
-import pip
 
 pluginPath = os.path.dirname(__file__)
-
 
 class WhiteboxWorkflowsProvider(QgsProcessingProvider):
 
@@ -51,26 +50,13 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
         self.WBW_COMPRESS_RASTERS = 'WBW_COMPRESS_RASTERS'
         self.WBW_MAX_THREADS = 'WBW_MAX_THREADS'
 
-        # import urllib.request
-        # url = "https://www.whiteboxgeo.com/wbw_wheels/whitebox_workflows-1.2.0-cp38-abi3-macosx_11_0_arm64.whl"
-        # (s, msg) = urllib.request.urlretrieve(url, "whitebox_workflows-1.2.0-cp38-abi3-macosx_11_0_arm64.whl")
-        # print(s)
-        # print(msg)
-
-
-
         # The following code will identify the appropriate wbw whl file
         # for the system and unzips it for local use.
         this_dir = os.path.dirname(os.path.realpath(__file__))
         wb_dir = os.path.join(this_dir, 'whitebox_workflows')
         if not os.path.isdir(wb_dir):
-            # # First, find all the wheel files in this_dir
-            # path = os.path.join(this_dir, '*.whl')
-            # whl_files = glob.glob(path)
-            # if len(whl_files) == 0:
-            #     print("Error: No whl files have been located in the plugin directory.")
-            #     QgsMessageLog.logMessage("Error: No whl files have been located in the plugin directory.", level=Qgis.Critical)
             
+            iface.messageBar().pushMessage("Info", "Downloading Whitebox Workflows library to the plugin directory.")
             QgsMessageLog.logMessage("Downloading Whitebox Workflows library to the plugin directory.", level=Qgis.Info)
 
             # Based on the OS and arch, unzip the appropriate wheel

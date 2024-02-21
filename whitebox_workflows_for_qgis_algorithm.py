@@ -257,7 +257,7 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         max_threads = ProcessingConfig.getSetting('WBW_MAX_THREADS')
         if max_threads == None or int(max_threads) < 1:
             max_threads = '-1' # All available threads
-        scriptString = scriptString.replace("max_threads", max_threads)
+        scriptString = scriptString.replace("max_threads", str(max_threads))
         compress_raster = ProcessingConfig.getSetting('WBW_COMPRESS_RASTERS')
         scriptString = scriptString.replace("compress_raster", str(compress_raster))
         scriptString = scriptString.replace("plugin_path", pluginPath)
@@ -301,7 +301,7 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
 
         command = "python3"
         if platform.system() == 'Windows':
-            command = "py"
+            command = "python"
 
         fused_command = f"{command} -c " + scriptString
         QgsMessageLog.logMessage(fused_command, 'Processing', Qgis.Info)
