@@ -1,7 +1,7 @@
 openness
 Openness
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#openness
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#openness
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterNumber|dist2|Dist (int)|QgsProcessingParameterNumber.Integer|20|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput0|Positive openness (Raster)|None|False

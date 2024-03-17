@@ -1,7 +1,7 @@
 assess_route
 Assess route
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#assess_route
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#assess_route
 QgsProcessingParameterFeatureSource|routes1|Routes (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterRasterLayer|dem2|DEM (Raster)|None|False
 QgsProcessingParameterNumber|segment_length3|Segment length (float)|QgsProcessingParameterNumber.Double|100.0|False|None|None

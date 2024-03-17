@@ -1,7 +1,7 @@
 low_points_on_headwater_divides
 Low points on headwater divides
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#low_points_on_headwater_divides
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#low_points_on_headwater_divides
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterRasterLayer|streams2|Streams (Raster)|None|False
 QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

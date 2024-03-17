@@ -1,0 +1,9 @@
+horizon_area
+Horizon area
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#horizon_area
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|az_fraction2|Az fraction (float)|QgsProcessingParameterNumber.Double|5.0|False|None|None
+QgsProcessingParameterNumber|max_dist3|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|observer_hgt_offset4|Observer hgt offset (float)|QgsProcessingParameterNumber.Double|0.05|False|None|None
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

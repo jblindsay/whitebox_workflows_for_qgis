@@ -1,7 +1,7 @@
 prune_vector_streams
 Prune vector streams
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#prune_vector_streams
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#prune_vector_streams
 QgsProcessingParameterFeatureSource|streams1|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterRasterLayer|dem2|DEM (Raster)|None|False
 QgsProcessingParameterNumber|threshold3|Threshold (float)|QgsProcessingParameterNumber.Double|None|False|None|None

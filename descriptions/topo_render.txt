@@ -1,7 +1,7 @@
 topo_render
 Topo render
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topo_render
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#topo_render
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterEnum|palette2|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False
 QgsProcessingParameterBoolean|reverse_palette3|Reverse palette (bool)|False|False

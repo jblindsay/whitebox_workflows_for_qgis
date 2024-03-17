@@ -1,7 +1,7 @@
 lidar_eigenvalue_features
 Lidar eigenvalue features
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_eigenvalue_features
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#lidar_eigenvalue_features
 QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterNumber|num_neighbours2|Num neighbours (int)|QgsProcessingParameterNumber.Integer|None|True|None|None
 QgsProcessingParameterNumber|search_radius3|Search radius (float)|QgsProcessingParameterNumber.Double|None|True|None|None

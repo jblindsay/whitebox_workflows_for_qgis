@@ -67,6 +67,9 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
                 (s, msg) = urllib.request.urlretrieve(url, path)
                 with zipfile.ZipFile(path, 'r') as zip_ref:
                     zip_ref.extractall(this_dir)
+
+                if os.path.exists(path):
+                    os.remove(path)
             
             elif 'Windows' in platform_system:
                 url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_win.whl"
@@ -74,6 +77,9 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
                 (s, msg) = urllib.request.urlretrieve(url, path)
                 with zipfile.ZipFile(path, 'r') as zip_ref:
                     zip_ref.extractall(this_dir)
+
+                if os.path.exists(path):
+                    os.remove(path)
             
             elif 'Darwin' in platform_system:
                 # Intel or M-series?
@@ -84,6 +90,9 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
                     (s, msg) = urllib.request.urlretrieve(url, path)
                     with zipfile.ZipFile(path, 'r') as zip_ref:
                         zip_ref.extractall(this_dir)
+                    
+                    if os.path.exists(path):
+                        os.remove(path)
                         
                 else:
                     url = "https://www.whiteboxgeo.com/wbw_wheels/wbw_macosx_intel.whl"
@@ -91,6 +100,9 @@ class WhiteboxWorkflowsProvider(QgsProcessingProvider):
                     (s, msg) = urllib.request.urlretrieve(url, path)
                     with zipfile.ZipFile(path, 'r') as zip_ref:
                         zip_ref.extractall(this_dir)
+                    
+                    if os.path.exists(path):
+                        os.remove(path)
 
         QgsProcessingProvider.__init__(self)
 

@@ -1,7 +1,7 @@
 image_segmentation
 Image segmentation
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_segmentation
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#image_segmentation
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterNumber|dist_threshold2|Dist threshold (float)|QgsProcessingParameterNumber.Double|0.5|False|None|None
 QgsProcessingParameterNumber|num_steps3|Num steps (int)|QgsProcessingParameterNumber.Integer|10|False|None|None

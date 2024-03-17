@@ -267,9 +267,10 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         #     params['wk_dir'] += os.sep
 
         for p in params:
-            if p != "wk_dir" and 'wk_dir' in params: # replace the long working directory in file names
-                # params[p] = params[p].replace(params['wk_dir'], "")
-                params[p] = os.path.basename(params[p])
+            # if p != "wk_dir" and 'wk_dir' in params: # replace the long working directory in file names
+            #     # params[p] = params[p].replace(params['wk_dir'], "")
+            #     if params['wk_dir'] in params[p]:
+            #         params[p] = os.path.basename(params[p])
 
             scriptString = scriptString.replace(p, params[p]).replace("'None'", "None")
             # Likely optional parameters

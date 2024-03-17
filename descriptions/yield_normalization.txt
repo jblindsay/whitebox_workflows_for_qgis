@@ -1,7 +1,7 @@
 yield_normalization
 Yield normalization
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#yield_normalization
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#yield_normalization
 QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|yield_field_name2|Yield field name |None|input1|QgsProcessingParameterField.Any|False|False|False
 QgsProcessingParameterNumber|radius3|Radius (float)|QgsProcessingParameterNumber.Double|None|False|None|None

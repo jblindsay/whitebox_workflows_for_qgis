@@ -1,7 +1,7 @@
 recover_flightline_info
 Recover flightline info
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#recover_flightline_info
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#recover_flightline_info
 QgsProcessingParameterFile|input1|Input (Lidar)|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterNumber|max_time_diff2|Max time diff (float)|QgsProcessingParameterNumber.Double|5.0|False|None|None
 QgsProcessingParameterBoolean|pt_src_id3|Pt src id (bool)|False|False

@@ -1,7 +1,7 @@
 topographic_position_animation
 Topographic position animation
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#topographic_position_animation
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#topographic_position_animation
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file2|Output html file (str)|HTML files (*.html)|None|False
 QgsProcessingParameterEnum|palette3|Palette (WbPalette)|WbPalette.Atlas;WbPalette.HighRelief;WbPalette.Arid;WbPalette.Earthtones;WbPalette.Soft;WbPalette.Muted;WbPalette.LightQuant;WbPalette.Purple;WbPalette.Viridis;WbPalette.GreenYellow;WbPalette.PinkYellowGreen;WbPalette.BlueYellowRed;WbPalette.Deep;WbPalette.Imhof;WbPalette.White;WbPalette.Grey|False|4|False

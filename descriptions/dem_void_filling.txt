@@ -1,7 +1,7 @@
 dem_void_filling
 Dem void filling
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#dem_void_filling
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#dem_void_filling
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterRasterLayer|fill2|Fill (Raster)|None|False
 QgsProcessingParameterNumber|mean_plane_dist3|Mean plane dist (int)|QgsProcessingParameterNumber.Integer|20|False|None|None

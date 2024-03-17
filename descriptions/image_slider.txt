@@ -1,7 +1,7 @@
 image_slider
 Image slider
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#image_slider
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#image_slider
 QgsProcessingParameterRasterLayer|left_raster1|Left raster (Raster)|None|False
 QgsProcessingParameterRasterLayer|right_raster2|Right raster (Raster)|None|False
 QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False

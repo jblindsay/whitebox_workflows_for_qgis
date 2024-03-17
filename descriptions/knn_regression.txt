@@ -1,7 +1,7 @@
 knn_regression
 Knn regression
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#knn_regression
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#knn_regression
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFeatureSource|training_data2|Training data (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|field_name3|Field name |None|training_data2|QgsProcessingParameterField.Any|False|False|False

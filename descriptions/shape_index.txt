@@ -1,7 +1,7 @@
 shape_index
 Shape index
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#shape_index
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#shape_index
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterNumber|z_factor2|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
 QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

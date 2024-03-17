@@ -1,7 +1,7 @@
 recreate_pass_lines
 Recreate pass lines
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#recreate_pass_lines
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#recreate_pass_lines
 QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|yield_field_name2|Yield field name |None|input1|QgsProcessingParameterField.Any|False|False|False
 QgsProcessingParameterNumber|max_change_in_heading3|Max change in heading (float)|QgsProcessingParameterNumber.Double|25.0|False|None|None

@@ -1,0 +1,7 @@
+random_forest_regression_predict
+Random forest regression predict
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#random_forest_regression_predict
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterFile|model_bytes2|Model bytes (List[int])|QgsProcessingParameterFile.File|None|None|False|DAT Files (*.dat *.DAT)
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

@@ -1,7 +1,7 @@
 split_lidar
 Split lidar
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#split_lidar
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#split_lidar
 QgsProcessingParameterString|split_criterion1|Split criterion (str)|None|False|False
 QgsProcessingParameterFile|input_lidar2|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterNumber|interval3|Interval (float)|QgsProcessingParameterNumber.Double|5.0|False|None|None

@@ -1,7 +1,7 @@
 horizontal_excess_curvature
 Horizontal excess curvature
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#horizontal_excess_curvature
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#horizontal_excess_curvature
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterBoolean|log_transform2|Log transform (bool)|False|False
 QgsProcessingParameterNumber|z_factor3|Z factor (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None

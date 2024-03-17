@@ -1,7 +1,7 @@
 dbscan
 Dbscan
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#dbscan
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#dbscan
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterEnum|scaling_method2|Scaling method (str)|none;normalize;standardize|False|0|False
 QgsProcessingParameterNumber|search_distance3|Search distance (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None

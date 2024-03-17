@@ -1,7 +1,7 @@
 colourize_based_on_class
 Colourize based on class
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#colourize_based_on_class
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#colourize_based_on_class
 QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterNumber|intensity_blending_amount2|Intensity blending amount (float)|QgsProcessingParameterNumber.Double|50.0|False|None|None
 QgsProcessingParameterString|clr_str3|Clr str (str)||False|False

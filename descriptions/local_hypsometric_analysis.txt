@@ -1,7 +1,7 @@
 local_hypsometric_analysis
 Local hypsometric analysis
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#local_hypsometric_analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#local_hypsometric_analysis
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterNumber|min_scale2|Min scale (int)|QgsProcessingParameterNumber.Integer|4|False|None|None
 QgsProcessingParameterNumber|step_size3|Step size (int)|QgsProcessingParameterNumber.Integer|1|False|None|None

@@ -1,7 +1,7 @@
 depth_to_water
 Depth to water
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#depth_to_water
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#depth_to_water
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterFeatureSource|streams2|Streams (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|True
 QgsProcessingParameterFeatureSource|lakes3|Lakes (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|True

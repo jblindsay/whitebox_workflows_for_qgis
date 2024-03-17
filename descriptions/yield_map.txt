@@ -1,7 +1,7 @@
 yield_map
 Yield map
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#yield_map
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#yield_map
 QgsProcessingParameterFeatureSource|input1|Input (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|pass_field_name2|Pass field name |None|input1|QgsProcessingParameterField.Any|False|False|False
 QgsProcessingParameterNumber|swath_width3|Swath width (float)|QgsProcessingParameterNumber.Double|6.096|False|None|None

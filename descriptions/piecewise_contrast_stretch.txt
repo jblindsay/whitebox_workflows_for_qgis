@@ -1,7 +1,7 @@
 piecewise_contrast_stretch
 Piecewise contrast stretch
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#piecewise_contrast_stretch
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#piecewise_contrast_stretch
 QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
 QgsProcessingParameterString|transformation_statement2|Transformation statement (str)|None|False|False
 QgsProcessingParameterNumber|num_greytones3|Num greytones (float)|QgsProcessingParameterNumber.Double|1024.0|False|None|None

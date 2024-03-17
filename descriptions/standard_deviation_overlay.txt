@@ -1,0 +1,6 @@
+standard_deviation_overlay
+Standard deviation overlay
+GIS
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#standard_deviation_overlay
+QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

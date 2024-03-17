@@ -1,7 +1,7 @@
 parallelepiped_classification
 Parallelepiped classification
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#parallelepiped_classification
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#parallelepiped_classification
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFeatureSource|training_data2|Training data (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|class_field_name3|Class field name |None|training_data2|QgsProcessingParameterField.Any|False|False|False

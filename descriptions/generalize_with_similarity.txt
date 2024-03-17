@@ -1,7 +1,7 @@
 generalize_with_similarity
 Generalize with similarity
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#generalize_with_similarity
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#generalize_with_similarity
 QgsProcessingParameterRasterLayer|inputRaster1|Raster (Raster)|None|False
 QgsProcessingParameterMultipleLayers|similarity_rasters2|Similarity rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterNumber|area_threshold3|Area threshold (int)|QgsProcessingParameterNumber.Integer|5|False|None|None

@@ -1,13 +1,12 @@
-random_forest_regression
-Random forest regression
+random_forest_regression_fit
+Random forest regression fit
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#random_forest_regression
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#random_forest_regression_fit
 QgsProcessingParameterMultipleLayers|input_rasters1|Input rasters (List[Raster])|QgsProcessing.TypeRaster|None|False
 QgsProcessingParameterFeatureSource|training_data2|Training data (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
 QgsProcessingParameterField|field_name3|Field name |None|training_data2|QgsProcessingParameterField.Any|False|False|False
-QgsProcessingParameterNumber|n_trees4|N trees (int)|QgsProcessingParameterNumber.Integer|500|False|None|None
+QgsProcessingParameterNumber|n_trees4|N trees (int)|QgsProcessingParameterNumber.Integer|200|False|None|None
 QgsProcessingParameterNumber|min_samples_leaf5|Min samples leaf (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
 QgsProcessingParameterNumber|min_samples_split6|Min samples split (int)|QgsProcessingParameterNumber.Integer|2|False|None|None
 QgsProcessingParameterNumber|test_proportion7|Test proportion (float)|QgsProcessingParameterNumber.Double|0.2|False|None|None
-QgsProcessingParameterBoolean|create_output8|Create output (bool)|False|False
-QgsProcessingParameterRasterDestination|fnOutput|Output (Optional[Raster])|None|True
+QgsProcessingParameterFileDestination|fnOutput|Output (List[int])|DAT files (*.dat *.DAT)|None|False

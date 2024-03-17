@@ -1,7 +1,7 @@
 multiscale_curvatures
 Multiscale curvatures
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#multiscale_curvatures
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#multiscale_curvatures
 QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
 QgsProcessingParameterEnum|curv_type2|Curv type (str)|accumulation;curvedness;difference;gaussian;generating function;horizontal excess;maximal;mean;minimal;plan;profile;ring;rotor;shape index;tangential;total;unsphericity;vertical excess|False|10|False
 QgsProcessingParameterNumber|min_scale3|Min scale (int)|QgsProcessingParameterNumber.Integer|4|False|None|None

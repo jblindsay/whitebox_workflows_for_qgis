@@ -6,7 +6,7 @@
 name=Whitebox Workflows for QGIS
 qgisMinimumVersion=3.0
 description=Provides access to Whitebox Workflows within QGIS
-version=1.2.0
+version=1.2.2
 author=John Lindsay, Whitebox Geospatial Inc.
 email=support@whiteboxgeo.com
 

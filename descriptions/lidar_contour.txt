@@ -1,7 +1,7 @@
 lidar_contour
 Lidar contour
 WbW Pro (License required)
-https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#lidar_contour
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#lidar_contour
 QgsProcessingParameterFile|input_lidar1|Input lidar (Lidar)|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
 QgsProcessingParameterNumber|contour_interval2|Contour interval (float)|QgsProcessingParameterNumber.Double|10.0|False|None|None
 QgsProcessingParameterNumber|base_contour3|Base contour (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None

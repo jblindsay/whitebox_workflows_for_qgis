@@ -1,0 +1,6 @@
+horton_ratios
+Horton ratios
+Stream network analysis
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#horton_ratios
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterRasterLayer|streams_raster2|Streams raster (Raster)|None|False
