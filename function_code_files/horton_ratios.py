@@ -8,8 +8,8 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-raster_1 = wbe.read_raster('dem1')
-raster_2 = wbe.read_raster('streams_raster2')
+raster_1 = wbe.read_raster(r"dem1")
+raster_2 = wbe.read_raster(r"streams_raster2")
 (outputFloat0, outputFloat1, outputFloat2, outputFloat3) = wbe.horton_ratios(raster_1, raster_2)
 print(f"bifurcation_ratio: {outputFloat0}")
 print(f"length_ratio: {outputFloat1}")

@@ -8,7 +8,7 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-raster_1 = wbe.read_raster('input1')
+raster_1 = wbe.read_raster(r"input1")
 (outputRaster0, outputString1) = wbe.centroid_raster(raster_1)
 wbe.write_raster(outputRaster0, 'fnOutput0', compress_raster)
 wbe.write_text(outputString1, 'fnOutput1')

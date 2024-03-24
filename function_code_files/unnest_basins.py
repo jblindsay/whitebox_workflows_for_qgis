@@ -9,8 +9,8 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-raster_1 = wbe.read_raster('d8_pointer1')
-vector_2 = wbe.read_vector('pour_points2')
+raster_1 = wbe.read_raster(r"d8_pointer1")
+vector_2 = wbe.read_vector(r"pour_points2")
 outputRasters = wbe.unnest_basins(raster_1, vector_2, esri_pntr3)
 for i in range(len(outputRasters)):
     fn = os.path.join(wbe.working_directory, f"{fnOutput}{str(i)}.tif")

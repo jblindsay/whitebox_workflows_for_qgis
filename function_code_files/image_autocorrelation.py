@@ -8,6 +8,8 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-rasters_1 = wbe.read_rasters(rasters1)
+files = [rasters1]
+file_nms = [fr"{x.strip()}" for x in files]
+rasters_1 = wbe.read_rasters(*file_nms)
 wbe.image_autocorrelation(rasters_1, 'output_html_file2', 'contiguity_type3')
 wbe.check_in_license('license_id')

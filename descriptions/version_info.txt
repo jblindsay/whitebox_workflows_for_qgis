@@ -1,0 +1,5 @@
+version_info
+Version info
+None
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#version_info
+QgsProcessingParameterBoolean|val1|Print version info|True|True

@@ -8,7 +8,9 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-rasters_1 = wbe.read_rasters(images1)
+files = [images1]
+file_nms = [fr"{x.strip()}" for x in files]
+rasters_1 = wbe.read_rasters(*file_nms)
 outputRaster = wbe.mosaic(rasters_1, 'resampling_method2')
 wbe.write_raster(outputRaster, 'fnOutput', compress_raster)
 wbe.check_in_license('license_id')

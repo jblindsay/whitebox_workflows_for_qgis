@@ -8,8 +8,8 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-raster_1 = wbe.read_raster('data_raster1')
-raster_2 = wbe.read_raster('feature_definitions_raster2')
+raster_1 = wbe.read_raster(r"data_raster1")
+raster_2 = wbe.read_raster(r"feature_definitions_raster2")
 (outputRaster0, outputString1) = wbe.zonal_statistics(raster_1, raster_2, 'stat_type3', zero_is_background4)
 wbe.write_raster(outputRaster0, 'fnOutput0', compress_raster)
 wbe.write_text(outputString1, 'fnOutput1')

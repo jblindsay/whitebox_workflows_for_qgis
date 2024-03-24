@@ -1,0 +1,5 @@
+check_in_license
+Check in license
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help.html#check_in_license
+QgsProcessingParameterString|id1|Floating-license ID|None|False|True

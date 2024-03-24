@@ -9,7 +9,9 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-rasters_1 = wbe.read_rasters(rasters1)
+files = [rasters1]
+file_nms = [fr"{x.strip()}" for x in files]
+rasters_1 = wbe.read_rasters(*file_nms)
 outputRasters = wbe.inverse_pca(rasters_1, 'pca_report_file2')
 for i in range(len(outputRasters)):
     fn = os.path.join(wbe.working_directory, f"{fnOutput}{str(i)}.tif")

@@ -8,7 +8,9 @@ wbe = WbEnvironment('license_id')
 wbe.verbose = True
 wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
-rasters_1 = wbe.read_rasters(images1)
-vector_2 = wbe.read_vector('points2')
+files = [images1]
+file_nms = [fr"{x.strip()}" for x in files]
+rasters_1 = wbe.read_rasters(*file_nms)
+vector_2 = wbe.read_vector(r"points2")
 wbe.image_stack_profile(rasters_1, vector_2, 'output_html_file3')
 wbe.check_in_license('license_id')
