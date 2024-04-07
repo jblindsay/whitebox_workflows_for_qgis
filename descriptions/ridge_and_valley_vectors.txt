@@ -1,0 +1,11 @@
+ridge_and_valley_vectors
+Ridge and valley vectors
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#ridge_and_valley_vectors
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterNumber|filter_size2|Filter size (int)|QgsProcessingParameterNumber.Integer|11|False|None|None
+QgsProcessingParameterNumber|ep_threshold3|Ep threshold (float)|QgsProcessingParameterNumber.Double|30.0|False|None|None
+QgsProcessingParameterNumber|slope_threshold4|Slope threshold (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|min_length5|Min length (int)|QgsProcessingParameterNumber.Integer|20|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput0|Output ridge network (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterVectorDestination|fnOutput1|Output valley network (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

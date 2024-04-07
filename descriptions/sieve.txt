@@ -1,0 +1,8 @@
+sieve
+Sieve
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#sieve
+QgsProcessingParameterRasterLayer|input_raster1|Input raster (Raster)|None|False
+QgsProcessingParameterNumber|threshold2|Threshold (int)|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterBoolean|zero_background3|Zero background (bool)|False|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

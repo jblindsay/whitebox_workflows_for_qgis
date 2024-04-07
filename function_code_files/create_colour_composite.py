@@ -11,7 +11,9 @@ wbe.working_directory = os.path.normpath(r"wk_dir")
 raster_1 = wbe.read_raster(r"red1")
 raster_2 = wbe.read_raster(r"green2")
 raster_3 = wbe.read_raster(r"blue3")
-raster_4 = wbe.read_raster(r"opacity4")
+raster_4 = None
+if r"opacity4" != "None":
+    raster_4 = wbe.read_raster(r"opacity4")
 outputRaster = wbe.create_colour_composite(raster_1, raster_2, raster_3, raster_4, enhance5, treat_zeros_as_nodata6)
 wbe.write_raster(outputRaster, 'fnOutput', compress_raster)
 wbe.check_in_license('license_id')

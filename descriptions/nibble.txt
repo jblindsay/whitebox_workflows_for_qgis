@@ -1,0 +1,9 @@
+nibble
+Nibble
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#nibble
+QgsProcessingParameterRasterLayer|input_raster1|Input raster (Raster)|None|False
+QgsProcessingParameterRasterLayer|mask2|Mask (Raster)|None|False
+QgsProcessingParameterBoolean|use_nodata3|Use nodata (bool)|False|False
+QgsProcessingParameterBoolean|nibble_nodata4|Nibble nodata (bool)|True|False
+QgsProcessingParameterRasterDestination|fnOutput|Output (Raster)|None|False

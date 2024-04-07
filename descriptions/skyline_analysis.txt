@@ -1,0 +1,12 @@
+skyline_analysis
+Skyline analysis
+WbW Pro (License required)
+https://www.whiteboxgeo.com/manual/wbw-user-manual/book/tool_help_wbwpro.html#skyline_analysis
+QgsProcessingParameterRasterLayer|dem1|DEM (Raster)|None|False
+QgsProcessingParameterFeatureSource|points2|Points (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False
+QgsProcessingParameterFileDestination|output_html_file3|Output html file (str)|HTML files (*.html)|None|False
+QgsProcessingParameterNumber|max_dist4|Max dist (float)|QgsProcessingParameterNumber.Double|inf|False|None|None
+QgsProcessingParameterNumber|observer_hgt_offset5|Observer hgt offset (float)|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterBoolean|output_as_polygons6|Output as polygons (bool)|True|False
+QgsProcessingParameterNumber|az_fraction7|Az fraction (float)|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterVectorDestination|fnOutput|Output (Vector)|QgsProcessing.TypeVectorAnyGeometry|None|False

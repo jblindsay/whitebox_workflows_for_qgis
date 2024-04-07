@@ -10,6 +10,6 @@ wbe.max_procs = max_threads
 wbe.working_directory = os.path.normpath(r"wk_dir")
 raster_1 = wbe.read_raster(r"inputRaster1")
 (outputRaster0, outputString1) = wbe.raster_area(raster_1, 'units2', zero_background3)
-wbe.write_raster(outputRaster0, 'fnOutput0', compress_raster)
-wbe.write_text(outputString1, 'fnOutput1')
+wbe.write_raster(outputRaster0, r"fnOutput0", compress_raster)
+wbe.write_text(outputString1, r"fnOutput1")
 wbe.check_in_license('license_id')
