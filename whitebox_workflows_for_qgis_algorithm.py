@@ -340,11 +340,11 @@ class WhiteboxWorkflowsAlgorithm(QgsProcessingAlgorithm):
         res = proc.run(feedback)
         if feedback.isCanceled() and res != 0:
             feedback.pushInfo('Process was canceled and did not complete.')
-        elif not feedback.isCanceled() and proc.exitStatus() == QProcess.CrashExit:
+        elif not feedback.isCanceled() and proc.exitStatus() == QProcess.ExitStatus.CrashExit:
             raise QgsProcessingException('Process was unexpectedly terminated.')
         elif res == 0:
             feedback.pushInfo('Process completed successfully.')
-        elif proc.processError() == QProcess.FailedToStart:
+        elif proc.processError() == QProcess.ProcessError.FailedToStart:
             raise QgsProcessingException('Process "{}" failed to start. Either "{}" is missing, or you may have insufficient permissions to run the program.'.format(command, command))
         else:
             feedback.reportError('Process returned error code {}'.format(res))
